@@ -1,0 +1,120 @@
+buildscript {
+    repositories {
+        maven { url = 'https://files.minecraftforge.net/maven' }
+        jcenter()
+        mavenCentral()
+    }
+    dependencies {
+        classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '4.+', changing: true
+    }
+}
+apply plugin: 'net.minecraftforge.gradle'
+apply plugin: 'eclipse'
+apply plugin: 'maven-publish'
+
+version = "${project.minecraft}-${project.modVersion}"
+group = 'com.sammy.out_various_tiles'
+archivesBaseName = project.modId
+
+sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8'
+sourceSets {
+    main.resources.srcDirs += 'src/main/generated_resources'
+}
+minecraft {
+    mappings channel: 'snapshot', version: '20201028-1.16.3'
+    accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg')
+
+    runs {
+        client {
+            workingDirectory project.file('run')
+
+            property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
+
+            property 'forge.logging.console.level', 'debug'
+
+            mods {
+                out_various_tiles {
+                    source sourceSets.main
+                }
+            }
+        }
+
+        server {
+            workingDirectory project.file('run')
+
+            property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
+
+            property 'forge.logging.console.level', 'debug'
+
+            mods {
+                out_various_tiles {
+                    source sourceSets.main
+                }
+            }
+        }
+
+        data {
+            workingDirectory project.file('run')
+
+            property 'forge.logging.markers', ''
+
+            property 'forge.logging.console.level', 'debug'
+
+            args '--mod', 'out_various_tiles', '--all', '--output', file('src/main/generated_resources/'), '--existing', file('src/main/resources/')
+
+            mods {
+                self {
+                    sources sourceSets.main
+                }
+            }
+        }
+    }
+}
+
+repositories {
+    maven {
+        name = "JEI Maven"
+        url = "https://dvs1.progwml6.com/files/maven/"
+    }
+    maven {
+        name = "CTM Guy"
+        url = "https://maven.tterrag.com/"
+    }
+}
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.16.5-36.1.31'
+
+    compileOnly fg.deobf("mezz.jei:jei-1.16.2:7.3.2.25:api")
+    runtimeOnly fg.deobf("mezz.jei:jei-1.16.2:7.3.2.25")
+
+    runtimeOnly fg.deobf("team.chisel.ctm:CTM:MC1.16.1-1.1.1.5")
+}
+
+jar {
+    manifest {
+        attributes([
+                "Specification-Title": "out_various_tiles",
+                "Specification-Vendor": "out_various_tilessareus",
+                "Specification-Version": "1", // We are version 1 of ourselves
+                "Implementation-Title": project.name,
+                "Implementation-Version": "${version}",
+                "Implementation-Vendor" :"out_various_tilessareus",
+                "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
+        ])
+    }
+}
+
+jar.finalizedBy('reobfJar')
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            artifact jar
+        }
+    }
+    repositories {
+        maven {
+            url "file:///${project.projectDir}/mcmodsrepo"
+        }
+    }
+}

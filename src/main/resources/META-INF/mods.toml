@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="All rights reserved"
+issueTrackerURL="https://github.com/SammySemicolon/Our-Various-Tiles/issues"
+[[mods]]
+modId="our_various_tiles"
+version="${file.jarVersion}"
+displayName="Malum"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/our-various-tiles"
+logoFile="our_various_tiles.png"
+credits='''The Minecraft Modding Discord and everyone there. It's an amazing place full of a ton of amazing people, this mod wouldn't be possible without them.'''
+authors="Cherry, Queso and Sammy;"
+description='''
+Malum is a magic mod centered around souls and spirits
+'''
+[[dependencies.our_various_tiles]]
+modId="forge"
+mandatory=true
+versionRange="[36,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.our_various_tiles]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.16.5,1.17)"
+ordering="NONE"
+side="BOTH"
