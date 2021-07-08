@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_rh",
+  "textures": {
+    "bottom": "our_various_tiles:block/example_door_bottom",
+    "top": "our_various_tiles:block/example_door_top"
+  }
+}

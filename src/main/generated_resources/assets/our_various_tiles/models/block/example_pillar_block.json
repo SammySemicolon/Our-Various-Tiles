@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "side": "our_various_tiles:block/example_pillar_block",
+    "end": "our_various_tiles:block/example_pillar_block_top"
+  }
+}

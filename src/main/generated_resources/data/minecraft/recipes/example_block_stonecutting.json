@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:dirt"
+  },
+  "result": "our_various_tiles:example_block",
+  "count": 1
+}

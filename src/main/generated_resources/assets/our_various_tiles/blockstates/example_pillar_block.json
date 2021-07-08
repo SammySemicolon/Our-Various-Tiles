@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "our_various_tiles:block/example_pillar_block_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "our_various_tiles:block/example_pillar_block"
+    },
+    "axis=z": {
+      "model": "our_various_tiles:block/example_pillar_block_horizontal",
+      "x": 90
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_side",
+  "textures": {
+    "texture": "our_various_tiles:block/example_block"
+  }
+}

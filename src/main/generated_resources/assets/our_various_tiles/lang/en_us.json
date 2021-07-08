@@ -1,0 +1,14 @@
+{
+  "block.our_various_tiles.example_block": "Example Block",
+  "block.our_various_tiles.example_block_button": "Example Block Button",
+  "block.our_various_tiles.example_block_fence": "Example Block Fence",
+  "block.our_various_tiles.example_block_fence_gate": "Example Block Fence Gate",
+  "block.our_various_tiles.example_block_pressure_plate": "Example Block Pressure Plate",
+  "block.our_various_tiles.example_block_slab": "Example Block Slab",
+  "block.our_various_tiles.example_block_stairs": "Example Block Stairs",
+  "block.our_various_tiles.example_block_wall": "Example Block Wall",
+  "block.our_various_tiles.example_door": "Example Door",
+  "block.our_various_tiles.example_pillar_block": "Example Pillar Block",
+  "block.our_various_tiles.example_trapdoor": "Example Trapdoor",
+  "itemGroup.our_various_tiles": "Our Various Tiles"
+}

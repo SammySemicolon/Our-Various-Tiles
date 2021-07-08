@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_inventory",
+  "textures": {
+    "texture": "our_various_tiles:block/example_block"
+  }
+}

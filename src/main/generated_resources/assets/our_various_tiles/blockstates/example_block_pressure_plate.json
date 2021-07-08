@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "our_various_tiles:block/example_block_pressure_plate_up"
+    },
+    "powered=true": {
+      "model": "our_various_tiles:block/example_block_pressure_plate_down"
+    }
+  }
+}
