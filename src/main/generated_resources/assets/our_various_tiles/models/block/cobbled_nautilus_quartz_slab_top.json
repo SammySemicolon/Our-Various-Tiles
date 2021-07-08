@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab_top",
-  "textures": {
-    "side": "our_various_tiles:block/cobbled_nautilus_quartz",
-    "bottom": "our_various_tiles:block/cobbled_nautilus_quartz",
-    "top": "our_various_tiles:block/cobbled_nautilus_quartz"
-  }
-}

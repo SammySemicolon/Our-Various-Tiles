@@ -9,7 +9,6 @@ import net.minecraft.data.*;
 import net.minecraft.item.Item;
 import net.minecraft.item.Items;
 import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.item.crafting.ShapedRecipe;
 import net.minecraft.tags.ITag;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.util.IItemProvider;
@@ -27,10 +26,7 @@ public class ModRecipeProvider extends RecipeProvider
     {
         super(generatorIn);
     }
-    {
-
-
-    }
+    
     @Override
     public String getName()
     {
@@ -43,13 +39,6 @@ public class ModRecipeProvider extends RecipeProvider
         ShapedRecipeBuilder.shapedRecipe(VariousBlocks.EXAMPLE_BLOCK.get(), 9).key('#', Items.DIRT).patternLine("###").patternLine("###").patternLine("###").addCriterion("has_dirt", hasItem(Items.DIRT)).build(consumer);
         ShapelessRecipeBuilder.shapelessRecipe(VariousBlocks.EXAMPLE_BLOCK.get(), 3).addIngredient(Items.DIAMOND).addCriterion("has_diamond", hasItem(Items.DIAMOND)).build(consumer, "example_block_alt");
         SingleItemRecipeBuilder.stonecuttingRecipe(Ingredient.fromItems(Items.DIRT), VariousItems.EXAMPLE_BLOCK.get(), 1).addCriterion("has_dirt", hasItem(Items.DIRT)).build(consumer, "example_block_stonecutting");
-        ShapedRecipeBuilder.shapedRecipe(VariousBlocks.COBBLED_NAUTILUS_QUARTZ.get(), 4).key('#', Items.NAUTILUS_SHELL).key('$', Items.QUARTZ).patternLine("#$").patternLine("$#").addCriterion("has_quartz", hasItem(Items.QUARTZ)).build(consumer);
-        ShapedRecipeBuilder.shapedRecipe(VariousBlocks.POLISHED_NAUTILUS_QUARTZ.get(), 4).key('#', (VariousItems.COBBLED_NAUTILUS_QUARTZ.get())).patternLine("##").patternLine("##").addCriterion("has_cobbled_nautilus_quartz", hasItem(VariousItems.COBBLED_NAUTILUS_QUARTZ.get())).build(consumer);
-
-        SingleItemRecipeBuilder.stonecuttingRecipe(Ingredient.fromItems(VariousItems.COBBLED_NAUTILUS_QUARTZ.get()), VariousItems.COBBLED_NAUTILUS_QUARTZ_STAIRS.get(), 1).addCriterion("has_cobbled_nautilus_quartz", hasItem(VariousItems.COBBLED_NAUTILUS_QUARTZ.get())).build(consumer, "cobbled_nautilus_quartz_stonecutting");
-
-        shapedRecipe(VariousItems.COBBLED_NAUTILUS_QUARTZ_SLAB.get(), 6).key('#', VariousItems.COBBLED_NAUTILUS_QUARTZ.get()).patternLine("###").addCriterion("has_cobbled_nautilus_quartz", hasItem(VariousItems.COBBLED_NAUTILUS_QUARTZ.get())).build(consumer);
-
     }
     private static void smithingReinforce(Consumer<IFinishedRecipe> recipeConsumer, Item itemToReinforce, Item output, Item reinforcement)
     {
@@ -172,5 +161,4 @@ public class ModRecipeProvider extends RecipeProvider
     {
         return new InventoryChangeTrigger.Instance(EntityPredicate.AndPredicate.ANY_AND, MinMaxBounds.IntBound.UNBOUNDED, MinMaxBounds.IntBound.UNBOUNDED, MinMaxBounds.IntBound.UNBOUNDED, predicate);
     }
-
 }
