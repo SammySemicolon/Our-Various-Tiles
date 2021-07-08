@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "our_various_tiles:cobbled_nautilus_quartz"
+    }
+  },
+  "result": {
+    "item": "our_various_tiles:cobbled_nautilus_quartz_slab",
+    "count": 6
+  }
+}

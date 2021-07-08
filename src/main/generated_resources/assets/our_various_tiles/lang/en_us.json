@@ -1,4 +1,9 @@
 {
+  "block.our_various_tiles.chiseled_nautilus_quartz": "Chiseled Nautilus Quartz",
+  "block.our_various_tiles.cobbled_nautilus_quartz": "Cobbled Nautilus Quartz",
+  "block.our_various_tiles.cobbled_nautilus_quartz_slab": "Cobbled Nautilus Quartz Slab",
+  "block.our_various_tiles.cobbled_nautilus_quartz_stairs": "Cobbled Nautilus Quartz Stairs",
+  "block.our_various_tiles.cobbled_nautilus_quartz_wall": "Cobbled Nautilus Quartz Wall",
   "block.our_various_tiles.example_block": "Example Block",
   "block.our_various_tiles.example_block_button": "Example Block Button",
   "block.our_various_tiles.example_block_fence": "Example Block Fence",
@@ -10,5 +15,6 @@
   "block.our_various_tiles.example_door": "Example Door",
   "block.our_various_tiles.example_pillar_block": "Example Pillar Block",
   "block.our_various_tiles.example_trapdoor": "Example Trapdoor",
+  "block.our_various_tiles.polished_nautilus_quartz": "Polished Nautilus Quartz",
   "itemGroup.our_various_tiles": "Our Various Tiles"
 }
