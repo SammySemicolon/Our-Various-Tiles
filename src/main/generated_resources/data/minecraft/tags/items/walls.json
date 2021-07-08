@@ -1,6 +1,18 @@
 {
   "replace": false,
   "values": [
-    "our_various_tiles:example_block_wall"
+    "our_various_tiles:cobbled_nautilus_quartz_wall",
+    "our_various_tiles:cut_nautilus_quartz_bricks_wall",
+    "our_various_tiles:polished_debris_wall",
+    "our_various_tiles:polished_debris_bricks_wall",
+    "our_various_tiles:cut_debris_bricks_wall",
+    "our_various_tiles:polished_debris_tiles_wall",
+    "our_various_tiles:soulstone_wall",
+    "our_various_tiles:polished_soulsand_wall",
+    "our_various_tiles:emerald_plated_polished_soulsand_wall",
+    "our_various_tiles:soulsand_bricks_wall",
+    "our_various_tiles:emerald_soulsand_bricks_wall",
+    "our_various_tiles:honey_pumpkin_bricks_wall",
+    "our_various_tiles:honey_pumpkin_tiles_wall"
   ]
 }

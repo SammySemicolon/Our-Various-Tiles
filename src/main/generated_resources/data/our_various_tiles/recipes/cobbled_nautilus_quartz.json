@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#$",
+    "$#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:nautilus_shell"
+    },
+    "$": {
+      "item": "minecraft:quartz"
+    }
+  },
+  "result": {
+    "item": "our_various_tiles:cobbled_nautilus_quartz",
+    "count": 4
+  }
+}

@@ -1,6 +1,19 @@
 {
   "replace": false,
   "values": [
+    "our_various_tiles:cobbled_nautilus_quartz_stairs",
+    "our_various_tiles:cut_nautilus_quartz_bricks_stairs",
+    "our_various_tiles:polished_debris_stairs",
+    "our_various_tiles:polished_debris_bricks_stairs",
+    "our_various_tiles:cut_debris_bricks_stairs",
+    "our_various_tiles:polished_debris_tiles_stairs",
+    "our_various_tiles:soulstone_stairs",
+    "our_various_tiles:polished_soulsand_stairs",
+    "our_various_tiles:emerald_plated_polished_soulsand_stairs",
+    "our_various_tiles:soulsand_bricks_stairs",
+    "our_various_tiles:emerald_soulsand_bricks_stairs",
+    "our_various_tiles:honey_pumpkin_bricks_stairs",
+    "our_various_tiles:honey_pumpkin_tiles_stairs",
     "our_various_tiles:example_block_stairs"
   ]
 }
