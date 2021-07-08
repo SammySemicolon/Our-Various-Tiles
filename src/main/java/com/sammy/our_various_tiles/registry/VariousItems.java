@@ -34,4 +34,11 @@ public class VariousItems
 
     public static final RegistryObject<Item> EXAMPLE_PILLAR_BLOCK = ITEMS.register("example_pillar_block", () -> new BlockItem(VariousBlocks.EXAMPLE_PILLAR_BLOCK.get(), DEFAULT_PROPERTIES()));
 
+    public static final RegistryObject<Item> POLISHED_OBSIDIAN = ITEMS.register("polished_obsidian", () -> new BlockItem(VariousBlocks.POLISHED_OBSIDIAN.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> POLISHED_OBSIDIAN_SLAB = ITEMS.register("polished_obsidian_slab", () -> new BlockItem(VariousBlocks.POLISHED_OBSIDIAN_SLAB.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> POLISHED_OBSIDIAN_STAIRS = ITEMS.register("polished_obsidian_stairs", () -> new BlockItem(VariousBlocks.POLISHED_OBSIDIAN_STAIRS.get(), DEFAULT_PROPERTIES()));
+
+    public static final RegistryObject<Item> CUT_OBSIDIAN = ITEMS.register("cut_obsidian", () -> new BlockItem(VariousBlocks.CUT_OBSIDIAN.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> CUT_OBSIDIAN_SLAB = ITEMS.register("cut_obsidian_slab", () -> new BlockItem(VariousBlocks.CUT_OBSIDIAN_SLAB.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> CUT_OBSIDIAN_STAIRS = ITEMS.register("cut_obsidian_stairs", () -> new BlockItem(VariousBlocks.CUT_OBSIDIAN_STAIRS.get(), DEFAULT_PROPERTIES()));
 }

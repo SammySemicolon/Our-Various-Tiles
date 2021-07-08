@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=top": {
+      "model": "our_various_tiles:block/cut_obsidian_slab_top"
+    },
+    "type=bottom": {
+      "model": "our_various_tiles:block/cut_obsidian_slab"
+    },
+    "type=double": {
+      "model": "our_various_tiles:block/cut_obsidian"
+    }
+  }
+}

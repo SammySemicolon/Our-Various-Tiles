@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-    "our_various_tiles:example_block_slab"
+    "our_various_tiles:example_block_slab",
+    "our_various_tiles:polished_obsidian_slab",
+    "our_various_tiles:cut_obsidian_slab"
   ]
 }

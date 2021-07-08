@@ -1,4 +1,7 @@
 {
+  "block.our_various_tiles.cut_obsidian": "Cut Obsidian",
+  "block.our_various_tiles.cut_obsidian_slab": "Cut Obsidian Slab",
+  "block.our_various_tiles.cut_obsidian_stairs": "Cut Obsidian Stairs",
   "block.our_various_tiles.example_block": "Example Block",
   "block.our_various_tiles.example_block_button": "Example Block Button",
   "block.our_various_tiles.example_block_fence": "Example Block Fence",
@@ -10,5 +13,8 @@
   "block.our_various_tiles.example_door": "Example Door",
   "block.our_various_tiles.example_pillar_block": "Example Pillar Block",
   "block.our_various_tiles.example_trapdoor": "Example Trapdoor",
+  "block.our_various_tiles.polished_obsidian": "Polished Obsidian",
+  "block.our_various_tiles.polished_obsidian_slab": "Polished Obsidian Slab",
+  "block.our_various_tiles.polished_obsidian_stairs": "Polished Obsidian Stairs",
   "itemGroup.our_various_tiles": "Our Various Tiles"
 }

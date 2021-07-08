@@ -39,6 +39,24 @@ public class ModRecipeProvider extends RecipeProvider
         ShapedRecipeBuilder.shapedRecipe(VariousBlocks.EXAMPLE_BLOCK.get(), 9).key('#', Items.DIRT).patternLine("###").patternLine("###").patternLine("###").addCriterion("has_dirt", hasItem(Items.DIRT)).build(consumer);
         ShapelessRecipeBuilder.shapelessRecipe(VariousBlocks.EXAMPLE_BLOCK.get(), 3).addIngredient(Items.DIAMOND).addCriterion("has_diamond", hasItem(Items.DIAMOND)).build(consumer, "example_block_alt");
         SingleItemRecipeBuilder.stonecuttingRecipe(Ingredient.fromItems(Items.DIRT), VariousItems.EXAMPLE_BLOCK.get(), 1).addCriterion("has_dirt", hasItem(Items.DIRT)).build(consumer, "example_block_stonecutting");
+
+        ShapedRecipeBuilder.shapedRecipe(VariousBlocks.POLISHED_OBSIDIAN.get(), 8).key('&', Items.OBSIDIAN).patternLine("&&").patternLine("&&").addCriterion("has_obsidian", hasItem(Items.OBSIDIAN)).build(consumer);
+        SingleItemRecipeBuilder.stonecuttingRecipe(Ingredient.fromItems(Items.OBSIDIAN), VariousItems.POLISHED_OBSIDIAN.get(), 2).addCriterion("has_obsidian", hasItem(Items.OBSIDIAN)).build(consumer, "polished_obsidian_stonecutting");
+
+        ShapedRecipeBuilder.shapedRecipe(VariousBlocks.POLISHED_OBSIDIAN_SLAB.get(), 6).key('&', VariousItems.POLISHED_OBSIDIAN.get()).patternLine("&&&").addCriterion("has_obsidian", hasItem(VariousItems.POLISHED_OBSIDIAN.get())).build(consumer);
+        SingleItemRecipeBuilder.stonecuttingRecipe(Ingredient.fromItems(Items.OBSIDIAN), VariousItems.POLISHED_OBSIDIAN_SLAB.get(), 4).addCriterion("has_obsidian", hasItem(Items.OBSIDIAN)).build(consumer, "polished_obsidian_slab_obsidian_stonecutting");
+        SingleItemRecipeBuilder.stonecuttingRecipe(Ingredient.fromItems(VariousItems.POLISHED_OBSIDIAN.get()), VariousItems.POLISHED_OBSIDIAN_SLAB.get(), 2).addCriterion("has_obsidian", hasItem(Items.OBSIDIAN)).build(consumer, "polished_obsidian_slab_stonecutting");
+
+        ShapedRecipeBuilder.shapedRecipe(VariousBlocks.POLISHED_OBSIDIAN_STAIRS.get(), 8).key('&', VariousItems.POLISHED_OBSIDIAN.get()).patternLine("&  ").patternLine("&& ").patternLine("&&&").addCriterion("has_obsidian", hasItem(VariousItems.POLISHED_OBSIDIAN.get())).build(consumer);
+        SingleItemRecipeBuilder.stonecuttingRecipe(Ingredient.fromItems(Items.OBSIDIAN), VariousItems.POLISHED_OBSIDIAN_STAIRS.get(), 2).addCriterion("has_obsidian", hasItem(Items.OBSIDIAN)).build(consumer, "polished_obsidian_stair_obsidian_stonecutting");
+        SingleItemRecipeBuilder.stonecuttingRecipe(Ingredient.fromItems(VariousItems.POLISHED_OBSIDIAN.get()), VariousItems.POLISHED_OBSIDIAN_STAIRS.get(), 1).addCriterion("has_obsidian", hasItem(Items.OBSIDIAN)).build(consumer, "polished_obsidian_stair_stonecutting");
+
+        SingleItemRecipeBuilder.stonecuttingRecipe(Ingredient.fromItems(Items.OBSIDIAN), VariousItems.CUT_OBSIDIAN.get(), 2).addCriterion("has_obsidian", hasItem(Items.OBSIDIAN)).build(consumer, "cut_obsidian_stonecutting");
+        SingleItemRecipeBuilder.stonecuttingRecipe(Ingredient.fromItems(Items.OBSIDIAN), VariousItems.CUT_OBSIDIAN_SLAB.get(), 4).addCriterion("has_obsidian", hasItem(Items.OBSIDIAN)).build(consumer, "cut_obsidian_slab_obsidian_stonecutting");
+        SingleItemRecipeBuilder.stonecuttingRecipe(Ingredient.fromItems(Items.OBSIDIAN), VariousItems.CUT_OBSIDIAN_STAIRS.get(), 2).addCriterion("has_obsidian", hasItem(Items.OBSIDIAN)).build(consumer, "cut_obsidian_stair_obsidian_stonecutting");
+
+        SingleItemRecipeBuilder.stonecuttingRecipe(Ingredient.fromItems(VariousItems.CUT_OBSIDIAN.get()), VariousItems.CUT_OBSIDIAN_SLAB.get(), 2).addCriterion("has_obsidian", hasItem(Items.OBSIDIAN)).build(consumer, "cut_obsidian_slab_stonecutting");
+        SingleItemRecipeBuilder.stonecuttingRecipe(Ingredient.fromItems(VariousItems.CUT_OBSIDIAN.get()), VariousItems.CUT_OBSIDIAN_STAIRS.get(), 1).addCriterion("has_obsidian", hasItem(Items.OBSIDIAN)).build(consumer, "cut_obsidian_stair_stonecutting");
     }
     private static void smithingReinforce(Consumer<IFinishedRecipe> recipeConsumer, Item itemToReinforce, Item output, Item reinforcement)
     {

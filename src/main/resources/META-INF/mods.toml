@@ -5,13 +5,13 @@ issueTrackerURL="https://github.com/SammySemicolon/Our-Various-Tiles/issues"
 [[mods]]
 modId="our_various_tiles"
 version="${file.jarVersion}"
-displayName="Malum"
+displayName="Our Various Tiles"
 displayURL="https://www.curseforge.com/minecraft/mc-mods/our-various-tiles"
 logoFile="our_various_tiles.png"
-credits='''The Minecraft Modding Discord and everyone there. It's an amazing place full of a ton of amazing people, this mod wouldn't be possible without them.'''
+credits='''The Minecraft Modding Discord and everyone there. It's an amazing place full of a ton of amazing people, this mod wouldn't be possible without them. Sammy! Couldn't be possible without his help and brilliance.'''
 authors="Cherry, Queso and Sammy;"
 description='''
-Malum is a magic mod centered around souls and spirits
+WE ADDIN BLOCKS
 '''
 [[dependencies.our_various_tiles]]
 modId="forge"

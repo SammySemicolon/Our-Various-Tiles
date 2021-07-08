@@ -22,6 +22,11 @@ public class VariousBlocks
     {
         return AbstractBlock.Properties.create(Material.ROCK, MaterialColor.STONE).sound(SoundType.STONE).setRequiresTool().hardnessAndResistance(1.25F, 9.0F);
     }
+    public static AbstractBlock.Properties OBI_PROPERTIES()
+    {
+        return AbstractBlock.Properties.create(Material.ROCK, MaterialColor.BLACK).setRequiresTool().hardnessAndResistance(12.0F, 1200.0F);
+    }
+
     public static final RegistryObject<Block> EXAMPLE_BLOCK = BLOCKS.register("example_block", () -> new Block(EXAMPLE_PROPERTIES()));
     public static final RegistryObject<Block> EXAMPLE_BLOCK_SLAB = BLOCKS.register("example_block_slab", () -> new SlabBlock(EXAMPLE_PROPERTIES()));
     public static final RegistryObject<Block> EXAMPLE_BLOCK_STAIRS = BLOCKS.register("example_block_stairs", () -> new ModStairsBlock(EXAMPLE_BLOCK, EXAMPLE_PROPERTIES()));
@@ -37,4 +42,12 @@ public class VariousBlocks
     public static final RegistryObject<Block> EXAMPLE_BLOCK_FENCE_GATE = BLOCKS.register("example_block_fence_gate", () -> new FenceGateBlock(EXAMPLE_PROPERTIES()));
 
     public static final RegistryObject<Block> EXAMPLE_PILLAR_BLOCK = BLOCKS.register("example_pillar_block", () -> new RotatedPillarBlock(EXAMPLE_PROPERTIES()));
+
+    public static final RegistryObject<Block> POLISHED_OBSIDIAN = BLOCKS.register("polished_obsidian", () -> new Block(OBI_PROPERTIES()));
+    public static final RegistryObject<Block> POLISHED_OBSIDIAN_SLAB = BLOCKS.register("polished_obsidian_slab", () -> new SlabBlock(OBI_PROPERTIES()));
+    public static final RegistryObject<Block> POLISHED_OBSIDIAN_STAIRS = BLOCKS.register("polished_obsidian_stairs", () -> new ModStairsBlock(POLISHED_OBSIDIAN, OBI_PROPERTIES()));
+
+    public static final RegistryObject<Block> CUT_OBSIDIAN = BLOCKS.register("cut_obsidian", () -> new Block(OBI_PROPERTIES()));
+    public static final RegistryObject<Block> CUT_OBSIDIAN_SLAB = BLOCKS.register("cut_obsidian_slab", () -> new SlabBlock(OBI_PROPERTIES()));
+    public static final RegistryObject<Block> CUT_OBSIDIAN_STAIRS = BLOCKS.register("cut_obsidian_stairs", () -> new ModStairsBlock(CUT_OBSIDIAN, OBI_PROPERTIES()));
 }

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "\u0026  ",
+    "\u0026\u0026 ",
+    "\u0026\u0026\u0026"
+  ],
+  "key": {
+    "\u0026": {
+      "item": "our_various_tiles:polished_obsidian"
+    }
+  },
+  "result": {
+    "item": "our_various_tiles:polished_obsidian_stairs",
+    "count": 8
+  }
+}
