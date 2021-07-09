@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "our_various_tiles:block/emerald_soulsand_bricks"
+  }
+}

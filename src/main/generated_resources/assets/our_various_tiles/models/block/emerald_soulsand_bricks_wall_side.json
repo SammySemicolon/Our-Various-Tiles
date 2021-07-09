@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_wall_side",
+  "textures": {
+    "wall": "our_various_tiles:block/emerald_soulsand_bricks"
+  }
+}

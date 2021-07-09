@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_wall_side_tall",
+  "textures": {
+    "wall": "our_various_tiles:block/polished_debris_bricks"
+  }
+}

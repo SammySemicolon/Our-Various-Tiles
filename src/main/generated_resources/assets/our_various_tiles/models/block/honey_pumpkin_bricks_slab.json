@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "side": "our_various_tiles:block/honey_pumpkin_bricks",
+    "bottom": "our_various_tiles:block/honey_pumpkin_bricks",
+    "top": "our_various_tiles:block/honey_pumpkin_bricks"
+  }
+}

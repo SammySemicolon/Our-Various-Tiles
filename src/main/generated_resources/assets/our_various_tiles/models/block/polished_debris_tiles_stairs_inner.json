@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "side": "our_various_tiles:block/polished_debris_tiles",
+    "bottom": "our_various_tiles:block/polished_debris_tiles",
+    "top": "our_various_tiles:block/polished_debris_tiles"
+  }
+}

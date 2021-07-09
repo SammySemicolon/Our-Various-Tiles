@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "our_various_tiles:block/honey_pumpkin_tiles"
+  }
+}

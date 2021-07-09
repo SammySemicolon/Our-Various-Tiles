@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=top": {
+      "model": "our_various_tiles:block/polished_soulsand_bricks_slab_top"
+    },
+    "type=bottom": {
+      "model": "our_various_tiles:block/polished_soulsand_bricks_slab"
+    },
+    "type=double": {
+      "model": "our_various_tiles:block/polished_soulsand_bricks"
+    }
+  }
+}

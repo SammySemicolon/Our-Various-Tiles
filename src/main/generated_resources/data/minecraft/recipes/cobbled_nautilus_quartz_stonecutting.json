@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "our_various_tiles:cobbled_nautilus_quartz"
-  },
-  "result": "our_various_tiles:cobbled_nautilus_quartz_stairs",
-  "count": 1
-}
