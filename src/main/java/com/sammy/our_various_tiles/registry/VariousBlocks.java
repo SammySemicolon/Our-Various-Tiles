@@ -105,6 +105,7 @@ public class VariousBlocks
     public static final RegistryObject<Block> HONEY_PUMPKIN_TILES_STAIRS = BLOCKS.register("honey_pumpkin_tiles_stairs", () -> new ModStairsBlock(HONEY_PUMPKIN_TILES ,SOFT_WOOD_PROPERTIES()));
     public static final RegistryObject<Block> HONEY_PUMPKIN_TILES_SLAB = BLOCKS.register("honey_pumpkin_tiles_slab", () -> new SlabBlock(SOFT_WOOD_PROPERTIES()));
     public static final RegistryObject<Block> HONEY_PUMPKIN_TILES_WALL = BLOCKS.register("honey_pumpkin_tiles_wall", () -> new WallBlock(SOFT_WOOD_PROPERTIES()));
+    public static final RegistryObject<Block> HONEY_PUMPKIN_TILES_FENCE = BLOCKS.register("honey_pumpkin_tiles_fence", () -> new FenceBlock(SOFT_WOOD_PROPERTIES()));
 
     public static final RegistryObject<Block> EXAMPLE_BLOCK = BLOCKS.register("example_block", () -> new Block(EXAMPLE_PROPERTIES()));
     public static final RegistryObject<Block> EXAMPLE_BLOCK_SLAB = BLOCKS.register("example_block_slab", () -> new SlabBlock(EXAMPLE_PROPERTIES()));
