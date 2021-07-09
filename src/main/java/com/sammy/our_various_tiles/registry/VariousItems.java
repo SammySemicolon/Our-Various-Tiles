@@ -83,6 +83,7 @@ public class VariousItems
     public static final RegistryObject<Item> EXAMPLE_BLOCK = ITEMS.register("example_block", () -> new BlockItem(VariousBlocks.EXAMPLE_BLOCK.get(), DEFAULT_PROPERTIES()));
     public static final RegistryObject<Item> EXAMPLE_BLOCK_SLAB = ITEMS.register("example_block_slab", () -> new BlockItem(VariousBlocks.EXAMPLE_BLOCK_SLAB.get(), DEFAULT_PROPERTIES()));
     public static final RegistryObject<Item> EXAMPLE_BLOCK_STAIRS = ITEMS.register("example_block_stairs", () -> new BlockItem(VariousBlocks.EXAMPLE_BLOCK_STAIRS.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> HONEY_PUMPKIN_TILES_FENCE = ITEMS.register("honey_pumpkin_tiles_fence", () -> new BlockItem(VariousBlocks.HONEY_PUMPKIN_TILES_FENCE.get(), DEFAULT_PROPERTIES()));
 
 
     public static final RegistryObject<Item> EXAMPLE_BLOCK_PRESSURE_PLATE = ITEMS.register("example_block_pressure_plate", () -> new BlockItem(VariousBlocks.EXAMPLE_BLOCK_PRESSURE_PLATE.get(), DEFAULT_PROPERTIES()));

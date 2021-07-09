@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "our_various_tiles:honey_pumpkin_tiles_fence",
     "our_various_tiles:example_block_fence"
   ]
 }
