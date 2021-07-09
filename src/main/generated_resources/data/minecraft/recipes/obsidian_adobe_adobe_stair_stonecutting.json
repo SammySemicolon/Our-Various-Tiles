@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "our_various_tiles:obsidian_adobe"
+  },
+  "result": "our_various_tiles:obsidian_adobe_stairs",
+  "count": 1
+}

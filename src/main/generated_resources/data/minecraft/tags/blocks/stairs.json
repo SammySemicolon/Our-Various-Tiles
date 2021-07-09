@@ -16,6 +16,9 @@
     "our_various_tiles:honey_pumpkin_tiles_stairs",
     "our_various_tiles:example_block_stairs",
     "our_various_tiles:polished_obsidian_stairs",
-    "our_various_tiles:cut_obsidian_stairs"
+    "our_various_tiles:cut_obsidian_stairs",
+    "our_various_tiles:cut_obsidian_brick_stairs",
+    "our_various_tiles:halved_obsidian_stairs",
+    "our_various_tiles:obsidian_adobe_stairs"
   ]
 }

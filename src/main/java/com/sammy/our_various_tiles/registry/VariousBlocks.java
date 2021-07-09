@@ -129,4 +129,16 @@ public class VariousBlocks
     public static final RegistryObject<Block> CUT_OBSIDIAN = BLOCKS.register("cut_obsidian", () -> new Block(OBI_PROPERTIES()));
     public static final RegistryObject<Block> CUT_OBSIDIAN_SLAB = BLOCKS.register("cut_obsidian_slab", () -> new SlabBlock(OBI_PROPERTIES()));
     public static final RegistryObject<Block> CUT_OBSIDIAN_STAIRS = BLOCKS.register("cut_obsidian_stairs", () -> new ModStairsBlock(CUT_OBSIDIAN, OBI_PROPERTIES()));
+
+    public static final RegistryObject<Block> CUT_OBSIDIAN_BRICK = BLOCKS.register("cut_obsidian_brick", () -> new Block(OBI_PROPERTIES()));
+    public static final RegistryObject<Block> CUT_OBSIDIAN_BRICK_SLAB = BLOCKS.register("cut_obsidian_brick_slab", () -> new SlabBlock(OBI_PROPERTIES()));
+    public static final RegistryObject<Block> CUT_OBSIDIAN_BRICK_STAIRS = BLOCKS.register("cut_obsidian_brick_stairs", () -> new ModStairsBlock(CUT_OBSIDIAN_BRICK, OBI_PROPERTIES()));
+
+    public static final RegistryObject<Block> HALVED_OBSIDIAN = BLOCKS.register("halved_obsidian", () -> new Block(OBI_PROPERTIES()));
+    public static final RegistryObject<Block> HALVED_OBSIDIAN_SLAB = BLOCKS.register("halved_obsidian_slab", () -> new SlabBlock(OBI_PROPERTIES()));
+    public static final RegistryObject<Block> HALVED_OBSIDIAN_STAIRS = BLOCKS.register("halved_obsidian_stairs", () -> new ModStairsBlock(HALVED_OBSIDIAN, OBI_PROPERTIES()));
+
+    public static final RegistryObject<Block> OBSIDIAN_ADOBE = BLOCKS.register("obsidian_adobe", () -> new Block(OBI_PROPERTIES()));
+    public static final RegistryObject<Block> OBSIDIAN_ADOBE_SLAB = BLOCKS.register("obsidian_adobe_slab", () -> new SlabBlock(OBI_PROPERTIES()));
+    public static final RegistryObject<Block> OBSIDIAN_ADOBE_STAIRS = BLOCKS.register("obsidian_adobe_stairs", () -> new ModStairsBlock(OBSIDIAN_ADOBE, OBI_PROPERTIES()));
 }

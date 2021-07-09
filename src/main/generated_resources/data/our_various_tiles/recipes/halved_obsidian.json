@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "\u0026\u0026"
+  ],
+  "key": {
+    "\u0026": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "result": {
+    "item": "our_various_tiles:halved_obsidian",
+    "count": 4
+  }
+}

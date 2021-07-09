@@ -104,4 +104,16 @@ public class VariousItems
     public static final RegistryObject<Item> CUT_OBSIDIAN = ITEMS.register("cut_obsidian", () -> new BlockItem(VariousBlocks.CUT_OBSIDIAN.get(), DEFAULT_PROPERTIES()));
     public static final RegistryObject<Item> CUT_OBSIDIAN_SLAB = ITEMS.register("cut_obsidian_slab", () -> new BlockItem(VariousBlocks.CUT_OBSIDIAN_SLAB.get(), DEFAULT_PROPERTIES()));
     public static final RegistryObject<Item> CUT_OBSIDIAN_STAIRS = ITEMS.register("cut_obsidian_stairs", () -> new BlockItem(VariousBlocks.CUT_OBSIDIAN_STAIRS.get(), DEFAULT_PROPERTIES()));
+
+    public static final RegistryObject<Item> CUT_OBSIDIAN_BRICK = ITEMS.register("cut_obsidian_brick", () -> new BlockItem(VariousBlocks.CUT_OBSIDIAN_BRICK.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> CUT_OBSIDIAN_BRICK_SLAB = ITEMS.register("cut_obsidian_brick_slab", () -> new BlockItem(VariousBlocks.CUT_OBSIDIAN_BRICK_SLAB.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> CUT_OBSIDIAN_BRICK_STAIRS = ITEMS.register("cut_obsidian_brick_stairs", () -> new BlockItem(VariousBlocks.CUT_OBSIDIAN_BRICK_STAIRS.get(), DEFAULT_PROPERTIES()));
+
+    public static final RegistryObject<Item> HALVED_OBSIDIAN = ITEMS.register("halved_obsidian", () -> new BlockItem(VariousBlocks.HALVED_OBSIDIAN.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> HALVED_OBSIDIAN_SLAB = ITEMS.register("halved_obsidian_slab", () -> new BlockItem(VariousBlocks.HALVED_OBSIDIAN_SLAB.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> HALVED_OBSIDIAN_STAIRS = ITEMS.register("halved_obsidian_stairs", () -> new BlockItem(VariousBlocks.HALVED_OBSIDIAN_STAIRS.get(), DEFAULT_PROPERTIES()));
+
+    public static final RegistryObject<Item> OBSIDIAN_ADOBE = ITEMS.register("obsidian_adobe", () -> new BlockItem(VariousBlocks.OBSIDIAN_ADOBE.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> OBSIDIAN_ADOBE_SLAB = ITEMS.register("obsidian_adobe_slab", () -> new BlockItem(VariousBlocks.OBSIDIAN_ADOBE_SLAB.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> OBSIDIAN_ADOBE_STAIRS = ITEMS.register("obsidian_adobe_stairs", () -> new BlockItem(VariousBlocks.OBSIDIAN_ADOBE_STAIRS.get(), DEFAULT_PROPERTIES()));
 }

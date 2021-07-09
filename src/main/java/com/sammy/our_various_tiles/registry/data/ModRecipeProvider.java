@@ -40,6 +40,8 @@ public class ModRecipeProvider extends RecipeProvider
         ShapelessRecipeBuilder.shapelessRecipe(VariousBlocks.EXAMPLE_BLOCK.get(), 3).addIngredient(Items.DIAMOND).addCriterion("has_diamond", hasItem(Items.DIAMOND)).build(consumer, "example_block_alt");
         SingleItemRecipeBuilder.stonecuttingRecipe(Ingredient.fromItems(Items.DIRT), VariousItems.EXAMPLE_BLOCK.get(), 1).addCriterion("has_dirt", hasItem(Items.DIRT)).build(consumer, "example_block_stonecutting");
 
+        SingleItemRecipeBuilder.stonecuttingRecipe(Ingredient.fromItems(VariousItems.COBBLED_NAUTILUS_QUARTZ.get()), VariousItems.COBBLED_NAUTILUS_QUARTZ_STAIRS.get(), 1).addCriterion("has_cobbled_nautilus_quartz", hasItem(VariousItems.COBBLED_NAUTILUS_QUARTZ.get())).build(consumer, "cobbled_nautilus_quartz_stonecutting");
+
         ShapedRecipeBuilder.shapedRecipe(VariousBlocks.POLISHED_OBSIDIAN.get(), 8).key('&', Items.OBSIDIAN).patternLine("&&").patternLine("&&").addCriterion("has_obsidian", hasItem(Items.OBSIDIAN)).build(consumer);
         SingleItemRecipeBuilder.stonecuttingRecipe(Ingredient.fromItems(Items.OBSIDIAN), VariousItems.POLISHED_OBSIDIAN.get(), 2).addCriterion("has_obsidian", hasItem(Items.OBSIDIAN)).build(consumer, "polished_obsidian_stonecutting");
 
@@ -57,7 +59,31 @@ public class ModRecipeProvider extends RecipeProvider
 
         SingleItemRecipeBuilder.stonecuttingRecipe(Ingredient.fromItems(VariousItems.CUT_OBSIDIAN.get()), VariousItems.CUT_OBSIDIAN_SLAB.get(), 2).addCriterion("has_obsidian", hasItem(Items.OBSIDIAN)).build(consumer, "cut_obsidian_slab_stonecutting");
         SingleItemRecipeBuilder.stonecuttingRecipe(Ingredient.fromItems(VariousItems.CUT_OBSIDIAN.get()), VariousItems.CUT_OBSIDIAN_STAIRS.get(), 1).addCriterion("has_obsidian", hasItem(Items.OBSIDIAN)).build(consumer, "cut_obsidian_stair_stonecutting");
+        SingleItemRecipeBuilder.stonecuttingRecipe(Ingredient.fromItems(VariousItems.CUT_OBSIDIAN.get()), VariousItems.CUT_OBSIDIAN_BRICK.get(), 2).addCriterion("has_obsidian", hasItem(Items.OBSIDIAN)).build(consumer, "cut_obsidian_brick_stonecutting");
+        SingleItemRecipeBuilder.stonecuttingRecipe(Ingredient.fromItems(VariousItems.CUT_OBSIDIAN.get()), VariousItems.CUT_OBSIDIAN_BRICK_SLAB.get(), 2).addCriterion("has_obsidian", hasItem(Items.OBSIDIAN)).build(consumer, "cut_obsidian_brick_slab_stonecutting");
+        SingleItemRecipeBuilder.stonecuttingRecipe(Ingredient.fromItems(VariousItems.CUT_OBSIDIAN.get()), VariousItems.CUT_OBSIDIAN_BRICK_STAIRS.get(), 2).addCriterion("has_obsidian", hasItem(Items.OBSIDIAN)).build(consumer, "cut_obsidian_brick_stair_stonecutting");
+
+        SingleItemRecipeBuilder.stonecuttingRecipe(Ingredient.fromItems(VariousItems.CUT_OBSIDIAN_BRICK.get()), VariousItems.CUT_OBSIDIAN_BRICK_SLAB.get(), 2).addCriterion("has_obsidian", hasItem(Items.OBSIDIAN)).build(consumer, "cut_obsidian_brick_brick_slab_stonecutting");
+        SingleItemRecipeBuilder.stonecuttingRecipe(Ingredient.fromItems(VariousItems.CUT_OBSIDIAN_BRICK.get()), VariousItems.CUT_OBSIDIAN_BRICK_STAIRS.get(), 1).addCriterion("has_obsidian", hasItem(Items.OBSIDIAN)).build(consumer, "cut_obsidian_brick_brick_stair_stonecutting");
+
+
+        SingleItemRecipeBuilder.stonecuttingRecipe(Ingredient.fromItems(Items.OBSIDIAN), VariousItems.HALVED_OBSIDIAN.get(), 2).addCriterion("has_obsidian", hasItem(Items.OBSIDIAN)).build(consumer, "halved_obsidian_stonecutting");
+        ShapedRecipeBuilder.shapedRecipe(VariousBlocks.HALVED_OBSIDIAN.get(), 4).key('&', Items.OBSIDIAN).patternLine("&&").addCriterion("has_obsidian", hasItem(Items.OBSIDIAN)).build(consumer);
+        SingleItemRecipeBuilder.stonecuttingRecipe(Ingredient.fromItems(Items.OBSIDIAN), VariousItems.HALVED_OBSIDIAN_SLAB.get(), 4).addCriterion("has_obsidian", hasItem(Items.OBSIDIAN)).build(consumer, "halved_obsidian_slab_obsidian_stonecutting");
+        SingleItemRecipeBuilder.stonecuttingRecipe(Ingredient.fromItems(Items.OBSIDIAN), VariousItems.HALVED_OBSIDIAN_STAIRS.get(), 2).addCriterion("has_obsidian", hasItem(Items.OBSIDIAN)).build(consumer, "halved_obsidian_stair_obsidian_stonecutting");
+
+        SingleItemRecipeBuilder.stonecuttingRecipe(Ingredient.fromItems(VariousItems.HALVED_OBSIDIAN.get()), VariousItems.HALVED_OBSIDIAN_SLAB.get(), 2).addCriterion("has_obsidian", hasItem(Items.OBSIDIAN)).build(consumer, "halved_obsidian_slab_stonecutting");
+        SingleItemRecipeBuilder.stonecuttingRecipe(Ingredient.fromItems(VariousItems.HALVED_OBSIDIAN.get()), VariousItems.HALVED_OBSIDIAN_STAIRS.get(), 1).addCriterion("has_obsidian", hasItem(Items.OBSIDIAN)).build(consumer, "halved_obsidian_stair_stonecutting");
+
+        SingleItemRecipeBuilder.stonecuttingRecipe(Ingredient.fromItems(Items.OBSIDIAN), VariousItems.OBSIDIAN_ADOBE.get(), 2).addCriterion("has_obsidian", hasItem(Items.OBSIDIAN)).build(consumer, "obsidian_adobe_stonecutting");
+        SingleItemRecipeBuilder.stonecuttingRecipe(Ingredient.fromItems(Items.OBSIDIAN), VariousItems.OBSIDIAN_ADOBE_SLAB.get(), 4).addCriterion("has_obsidian", hasItem(Items.OBSIDIAN)).build(consumer, "obsidian_adobe_slab_stonecutting");
+        SingleItemRecipeBuilder.stonecuttingRecipe(Ingredient.fromItems(Items.OBSIDIAN), VariousItems.OBSIDIAN_ADOBE_STAIRS.get(), 2).addCriterion("has_obsidian", hasItem(Items.OBSIDIAN)).build(consumer, "obsidian_adobe_stair_stonecutting");
+
+        SingleItemRecipeBuilder.stonecuttingRecipe(Ingredient.fromItems(VariousItems.OBSIDIAN_ADOBE.get()), VariousItems.OBSIDIAN_ADOBE_STAIRS.get(), 1).addCriterion("has_obsidian", hasItem(Items.OBSIDIAN)).build(consumer, "obsidian_adobe_adobe_stair_stonecutting");
+        SingleItemRecipeBuilder.stonecuttingRecipe(Ingredient.fromItems(VariousItems.OBSIDIAN_ADOBE.get()), VariousItems.OBSIDIAN_ADOBE_SLAB.get(), 2).addCriterion("has_obsidian", hasItem(Items.OBSIDIAN)).build(consumer, "obsidian_adobe_adobe_slab_stonecutting");
+
     }
+
     private static void smithingReinforce(Consumer<IFinishedRecipe> recipeConsumer, Item itemToReinforce, Item output, Item reinforcement)
     {
         SmithingRecipeBuilder.smithingRecipe(Ingredient.fromItems(itemToReinforce), Ingredient.fromItems(reinforcement), output).addCriterion("has_" + Registry.ITEM.getKey(reinforcement).getPath(), hasItem(reinforcement)).build(recipeConsumer, Registry.ITEM.getKey(output).getPath() + "_smithing");
