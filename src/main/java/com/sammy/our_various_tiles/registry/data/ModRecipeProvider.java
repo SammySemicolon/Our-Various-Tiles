@@ -66,7 +66,6 @@ public class ModRecipeProvider extends RecipeProvider
         SingleItemRecipeBuilder.stonecuttingRecipe(Ingredient.fromItems(VariousItems.CUT_OBSIDIAN_BRICK.get()), VariousItems.CUT_OBSIDIAN_BRICK_SLAB.get(), 2).addCriterion("has_obsidian", hasItem(Items.OBSIDIAN)).build(consumer, "cut_obsidian_brick_brick_slab_stonecutting");
         SingleItemRecipeBuilder.stonecuttingRecipe(Ingredient.fromItems(VariousItems.CUT_OBSIDIAN_BRICK.get()), VariousItems.CUT_OBSIDIAN_BRICK_STAIRS.get(), 1).addCriterion("has_obsidian", hasItem(Items.OBSIDIAN)).build(consumer, "cut_obsidian_brick_brick_stair_stonecutting");
 
-
         SingleItemRecipeBuilder.stonecuttingRecipe(Ingredient.fromItems(Items.OBSIDIAN), VariousItems.HALVED_OBSIDIAN.get(), 2).addCriterion("has_obsidian", hasItem(Items.OBSIDIAN)).build(consumer, "halved_obsidian_stonecutting");
         ShapedRecipeBuilder.shapedRecipe(VariousBlocks.HALVED_OBSIDIAN.get(), 4).key('&', Items.OBSIDIAN).patternLine("&&").addCriterion("has_obsidian", hasItem(Items.OBSIDIAN)).build(consumer);
         SingleItemRecipeBuilder.stonecuttingRecipe(Ingredient.fromItems(Items.OBSIDIAN), VariousItems.HALVED_OBSIDIAN_SLAB.get(), 4).addCriterion("has_obsidian", hasItem(Items.OBSIDIAN)).build(consumer, "halved_obsidian_slab_obsidian_stonecutting");

@@ -21,6 +21,7 @@ import java.util.function.Function;
 import static com.sammy.our_various_tiles.VariousTilesHelper.*;
 import static com.sammy.our_various_tiles.VariousTilesMod.MODID;
 import static com.sammy.our_various_tiles.registry.VariousBlocks.BLOCKS;
+import static com.sammy.our_various_tiles.registry.VariousBlocks.EXAMPLE_BLOCK;
 import static net.minecraft.state.properties.DoubleBlockHalf.LOWER;
 import static net.minecraft.state.properties.DoubleBlockHalf.UPPER;
 
@@ -43,6 +44,8 @@ public class ModBlockStateProvider extends net.minecraftforge.client.model.gener
     {
         Set<RegistryObject<Block>> blocks = new HashSet<>(BLOCKS.getEntries());
 
+        uniqueBlock(blocks, EXAMPLE_BLOCK);
+        
         takeAll(blocks, b -> b.get() instanceof GrassBlock).forEach(this::grassBlock);
         takeAll(blocks, b -> b.get() instanceof StairsBlock).forEach(this::stairsBlock);
         takeAll(blocks, b -> b.get() instanceof RotatedPillarBlock).forEach(this::logBlock);
@@ -65,12 +68,27 @@ public class ModBlockStateProvider extends net.minecraftforge.client.model.gener
         
     }
 
-    public void surgeBlock(RegistryObject<Block> blockRegistryObject)
+    public void uniqueBlock(Set<RegistryObject<Block>> blocks, RegistryObject<Block> blockRegistryObject)
     {
+        blocks.remove(blockRegistryObject);
         String name = Registry.BLOCK.getKey(blockRegistryObject.get()).getPath();
-        ModelFile surgeBlock = models().cubeBottomTop(name, prefix("block/" + name+ "_side"), prefix("block/surge_block_bottom"), prefix("block/" + name + "_top"));
-        directionalBlock(blockRegistryObject.get(), surgeBlock);
+        simpleBlock(blockRegistryObject.get(), models().cubeAll(name, new ResourceLocation(name)));
     }
+    public void uniqueslabBlock(Set<RegistryObject<Block>> blocks, RegistryObject<Block> blockRegistryObject)
+    {
+        blocks.remove(blockRegistryObject);
+        String name = Registry.BLOCK.getKey(blockRegistryObject.get()).getPath();
+        String baseName = name.substring(0, name.length() - 5);
+        slabBlock((SlabBlock) blockRegistryObject.get(), prefix(baseName), new ResourceLocation("block/" + baseName));
+    }
+    public void uniquestairsBlock(Set<RegistryObject<Block>> blocks, RegistryObject<Block> blockRegistryObject)
+    {
+        blocks.remove(blockRegistryObject);
+        String name = Registry.BLOCK.getKey(blockRegistryObject.get()).getPath();
+        String baseName = name.substring(0, name.length() - 7);
+        stairsBlock((StairsBlock) blockRegistryObject.get(), new ResourceLocation("block/" + baseName));
+    }
+
 
     public void basicBlock(RegistryObject<Block> blockRegistryObject)
     {
