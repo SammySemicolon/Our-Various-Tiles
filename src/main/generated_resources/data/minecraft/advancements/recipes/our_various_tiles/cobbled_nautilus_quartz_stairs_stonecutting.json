@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "minecraft:cobbled_nautilus_quartz_stonecutting"
+      "minecraft:cobbled_nautilus_quartz_stairs_stonecutting"
     ]
   },
   "criteria": {
@@ -19,7 +19,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "minecraft:cobbled_nautilus_quartz_stonecutting"
+        "recipe": "minecraft:cobbled_nautilus_quartz_stairs_stonecutting"
       }
     }
   },

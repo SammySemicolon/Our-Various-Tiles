@@ -40,7 +40,7 @@ public class ModRecipeProvider extends RecipeProvider
         ShapelessRecipeBuilder.shapelessRecipe(VariousBlocks.EXAMPLE_BLOCK.get(), 3).addIngredient(Items.DIAMOND).addCriterion("has_diamond", hasItem(Items.DIAMOND)).build(consumer, "example_block_alt");
         SingleItemRecipeBuilder.stonecuttingRecipe(Ingredient.fromItems(Items.DIRT), VariousItems.EXAMPLE_BLOCK.get(), 1).addCriterion("has_dirt", hasItem(Items.DIRT)).build(consumer, "example_block_stonecutting");
 
-        SingleItemRecipeBuilder.stonecuttingRecipe(Ingredient.fromItems(VariousItems.COBBLED_NAUTILUS_QUARTZ.get()), VariousItems.COBBLED_NAUTILUS_QUARTZ_STAIRS.get(), 1).addCriterion("has_cobbled_nautilus_quartz", hasItem(VariousItems.COBBLED_NAUTILUS_QUARTZ.get())).build(consumer, "cobbled_nautilus_quartz_stonecutting");
+        SingleItemRecipeBuilder.stonecuttingRecipe(Ingredient.fromItems(VariousItems.COBBLED_NAUTILUS_QUARTZ.get()), VariousItems.COBBLED_NAUTILUS_QUARTZ_STAIRS.get(), 1).addCriterion("has_cobbled_nautilus_quartz", hasItem(VariousItems.COBBLED_NAUTILUS_QUARTZ.get())).build(consumer, "cobbled_nautilus_quartz_stairs_stonecutting");
 
         ShapedRecipeBuilder.shapedRecipe(VariousBlocks.POLISHED_OBSIDIAN.get(), 8).key('&', Items.OBSIDIAN).patternLine("&&").patternLine("&&").addCriterion("has_obsidian", hasItem(Items.OBSIDIAN)).build(consumer);
         SingleItemRecipeBuilder.stonecuttingRecipe(Ingredient.fromItems(Items.OBSIDIAN), VariousItems.POLISHED_OBSIDIAN.get(), 2).addCriterion("has_obsidian", hasItem(Items.OBSIDIAN)).build(consumer, "polished_obsidian_stonecutting");
