@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "side": "our_various_tiles:block/gold_polished_dark_prismarine",
+    "bottom": "our_various_tiles:block/gold_polished_dark_prismarine",
+    "top": "our_various_tiles:block/gold_polished_dark_prismarine"
+  }
+}
