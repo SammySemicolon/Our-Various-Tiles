@@ -14,7 +14,13 @@
     "our_various_tiles:emerald_soulsand_bricks_wall",
     "our_various_tiles:honey_pumpkin_bricks_wall",
     "our_various_tiles:honey_pumpkin_tiles_wall",
-    "our_various_tiles:honey_pumpkin_tiles_fence",
+    "our_various_tiles:cobbled_dark_prismarine_wall",
+    "our_various_tiles:cut_dark_prismarine_bricks_wall",
+    "our_various_tiles:dark_prismarine_bricks_wall",
+    "our_various_tiles:dark_prismarine_slat_bricks_wall",
+    "our_various_tiles:dark_prismarine_slats_wall",
+    "our_various_tiles:polished_dark_prismarine_wall",
+    "our_various_tiles:gold_polished_dark_prismarine_wall",
     "our_various_tiles:example_block_wall"
   ]
 }

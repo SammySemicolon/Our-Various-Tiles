@@ -44,68 +44,120 @@ public class VariousBlocks
         return AbstractBlock.Properties.create(Material.ROCK, MaterialColor.STONE).sound(SoundType.STONE).setRequiresTool().hardnessAndResistance(0.75F, 6.0F);
     }
     public static final RegistryObject<Block> COBBLED_NAUTILUS_QUARTZ = BLOCKS.register("cobbled_nautilus_quartz", () -> new Block(STONE_PROPERTIES()));
-    public static final RegistryObject<Block> COBBLED_NAUTILUS_QUARTZ_SLAB = BLOCKS.register("cobbled_nautilus_quartz_slab", () -> new SlabBlock(STONE_PROPERTIES()));
-    public static final RegistryObject<Block> COBBLED_NAUTILUS_QUARTZ_STAIRS = BLOCKS.register("cobbled_nautilus_quartz_stairs", () -> new ModStairsBlock(COBBLED_NAUTILUS_QUARTZ, STONE_PROPERTIES()));
-    public static final RegistryObject<Block> COBBLED_NAUTILUS_QUARTZ_WALL = BLOCKS.register("cobbled_nautilus_quartz_wall", () -> new WallBlock(STONE_PROPERTIES()));
     public static final RegistryObject<Block> CHISELED_NAUTILUS_QUARTZ = BLOCKS.register("chiseled_nautilus_quartz", () -> new Block(STONE_PROPERTIES()));
     public static final RegistryObject<Block> POLISHED_NAUTILUS_QUARTZ = BLOCKS.register("polished_nautilus_quartz", () -> new Block(STONE_PROPERTIES()));
     public static final RegistryObject<Block> CUT_NAUTILUS_QUARTZ_BRICKS = BLOCKS.register("cut_nautilus_quartz_bricks", () -> new Block(STONE_PROPERTIES()));
-    public static final RegistryObject<Block> CUT_NAUTILUS_QUARTZ_BRICKS_STAIRS = BLOCKS.register("cut_nautilus_quartz_bricks_stairs", () -> new ModStairsBlock(CUT_NAUTILUS_QUARTZ_BRICKS, STONE_PROPERTIES()));
-    public static final RegistryObject<Block> CUT_NAUTILUS_QUARTZ_BRICKS_SLAB = BLOCKS.register("cut_nautilus_quartz_bricks_slab", () -> new SlabBlock(STONE_PROPERTIES()));
-    public static final RegistryObject<Block> CUT_NAUTILUS_QUARTZ_BRICKS_WALL = BLOCKS.register("cut_nautilus_quartz_bricks_wall", () -> new WallBlock(STONE_PROPERTIES()));
-
     public static final RegistryObject<Block> POLISHED_DEBRIS = BLOCKS.register("polished_debris", () -> new Block(HARD_STONE_PROPERTIES()));
-    public static final RegistryObject<Block> POLISHED_DEBRIS_STAIRS = BLOCKS.register("polished_debris_stairs", () -> new ModStairsBlock(POLISHED_DEBRIS, HARD_STONE_PROPERTIES()));
-    public static final RegistryObject<Block> POLISHED_DEBRIS_SLAB = BLOCKS.register("polished_debris_slab", () -> new SlabBlock(HARD_STONE_PROPERTIES()));
-    public static final RegistryObject<Block> POLISHED_DEBRIS_WALL = BLOCKS.register("polished_debris_wall", () -> new WallBlock(HARD_STONE_PROPERTIES()));
     public static final RegistryObject<Block> POLISHED_DEBRIS_BRICKS = BLOCKS.register("polished_debris_bricks", () -> new Block(HARD_STONE_PROPERTIES()));
-    public static final RegistryObject<Block> POLISHED_DEBRIS_BRICKS_STAIRS = BLOCKS.register("polished_debris_bricks_stairs", () -> new ModStairsBlock(POLISHED_DEBRIS_BRICKS, HARD_STONE_PROPERTIES()));
-    public static final RegistryObject<Block> POLISHED_DEBRIS_BRICKS_SLAB = BLOCKS.register("polished_debris_bricks_slab", () -> new SlabBlock(HARD_STONE_PROPERTIES()));
-    public static final RegistryObject<Block> POLISHED_DEBRIS_BRICKS_WALL = BLOCKS.register("polished_debris_bricks_wall", () -> new WallBlock(HARD_STONE_PROPERTIES()));
     public static final RegistryObject<Block> CUT_DEBRIS_BRICKS = BLOCKS.register("cut_debris_bricks", () -> new Block(HARD_STONE_PROPERTIES()));
-    public static final RegistryObject<Block> CUT_DEBRIS_BRICKS_STAIRS = BLOCKS.register("cut_debris_bricks_stairs", () -> new ModStairsBlock(CUT_DEBRIS_BRICKS, HARD_STONE_PROPERTIES()));
-    public static final RegistryObject<Block> CUT_DEBRIS_BRICKS_SLAB = BLOCKS.register("cut_debris_bricks_slab", () -> new SlabBlock(HARD_STONE_PROPERTIES()));
-    public static final RegistryObject<Block> CUT_DEBRIS_BRICKS_WALL = BLOCKS.register("cut_debris_bricks_wall", () -> new WallBlock(HARD_STONE_PROPERTIES()));
     public static final RegistryObject<Block> POLISHED_DEBRIS_TILES = BLOCKS.register("polished_debris_tiles", () -> new Block(HARD_STONE_PROPERTIES()));
-    public static final RegistryObject<Block> POLISHED_DEBRIS_TILES_STAIRS = BLOCKS.register("polished_debris_tiles_stairs", () -> new ModStairsBlock(POLISHED_DEBRIS_TILES, HARD_STONE_PROPERTIES()));
-    public static final RegistryObject<Block> POLISHED_DEBRIS_TILES_SLAB = BLOCKS.register("polished_debris_tiles_slab", () -> new SlabBlock(HARD_STONE_PROPERTIES()));
-    public static final RegistryObject<Block> POLISHED_DEBRIS_TILES_WALL = BLOCKS.register("polished_debris_tiles_wall", () -> new WallBlock(HARD_STONE_PROPERTIES()));
     public static final RegistryObject<Block> CHISELED_DEBRIS_BRICKS = BLOCKS.register("chiseled_debris_bricks", () -> new Block(HARD_STONE_PROPERTIES()));
     public static final RegistryObject<Block> DEBRIS_SHINGLES = BLOCKS.register("debris_shingles", () -> new RotatedPillarBlock(HARD_STONE_PROPERTIES()));
-
     public static final RegistryObject<Block> SOULSTONE = BLOCKS.register("soulstone", () -> new Block(SOFT_STONE_PROPERTIES()));
-    public static final RegistryObject<Block> SOULSTONE_STAIRS = BLOCKS.register("soulstone_stairs", () -> new ModStairsBlock(SOULSTONE, SOFT_STONE_PROPERTIES()));
-    public static final RegistryObject<Block> SOULSTONE_SLAB = BLOCKS.register("soulstone_slab", () -> new SlabBlock(SOFT_STONE_PROPERTIES()));
-    public static final RegistryObject<Block> SOULSTONE_WALL = BLOCKS.register("soulstone_wall", () -> new WallBlock(SOFT_STONE_PROPERTIES()));
     public static final RegistryObject<Block> POLISHED_SOULSAND = BLOCKS.register("polished_soulsand", () -> new Block(SOFT_STONE_PROPERTIES()));
-    public static final RegistryObject<Block> POLISHED_SOULSAND_STAIRS = BLOCKS.register("polished_soulsand_stairs", () -> new ModStairsBlock(POLISHED_SOULSAND, SOFT_STONE_PROPERTIES()));
-    public static final RegistryObject<Block> POLISHED_SOULSAND_SLAB = BLOCKS.register("polished_soulsand_slab", () -> new SlabBlock(SOFT_STONE_PROPERTIES()));
-    public static final RegistryObject<Block> POLISHED_SOULSAND_WALL = BLOCKS.register("polished_soulsand_wall", () -> new WallBlock(SOFT_STONE_PROPERTIES()));
     public static final RegistryObject<Block> EMERALD_PLATED_POLISHED_SOULSAND = BLOCKS.register("emerald_plated_polished_soulsand", () -> new Block(STONE_PROPERTIES()));
-    public static final RegistryObject<Block> EMERALD_PLATED_POLISHED_SOULSAND_STAIRS = BLOCKS.register("emerald_plated_polished_soulsand_stairs", () -> new ModStairsBlock(EMERALD_PLATED_POLISHED_SOULSAND, STONE_PROPERTIES()));
-    public static final RegistryObject<Block> EMERALD_PLATED_POLISHED_SOULSAND_SLAB = BLOCKS.register("emerald_plated_polished_soulsand_slab", () -> new SlabBlock(STONE_PROPERTIES()));
-    public static final RegistryObject<Block> EMERALD_PLATED_POLISHED_SOULSAND_WALL = BLOCKS.register("emerald_plated_polished_soulsand_wall", () -> new WallBlock(STONE_PROPERTIES()));
     public static final RegistryObject<Block> POLISHED_SOULSAND_BRICKS = BLOCKS.register("polished_soulsand_bricks", () -> new Block(SOFT_STONE_PROPERTIES()));
-    public static final RegistryObject<Block> POLISHED_SOULSAND_BRICKS_STAIRS = BLOCKS.register("polished_soulsand_bricks_stairs", () -> new ModStairsBlock(POLISHED_SOULSAND_BRICKS, SOFT_STONE_PROPERTIES()));
-    public static final RegistryObject<Block> POLISHED_SOULSAND_BRICKS_SLAB = BLOCKS.register("polished_soulsand_bricks_slab", () -> new SlabBlock(SOFT_STONE_PROPERTIES()));
-    public static final RegistryObject<Block> POLISHED_SOULSAND_BRICKS_WALL = BLOCKS.register("polished_soulsand_bricks_wall", () -> new WallBlock(SOFT_STONE_PROPERTIES()));
     public static final RegistryObject<Block> EMERALD_SOULSAND_BRICKS = BLOCKS.register("emerald_soulsand_bricks", () -> new Block(SOFT_STONE_PROPERTIES()));
-    public static final RegistryObject<Block> EMERALD_SOULSAND_BRICKS_STAIRS = BLOCKS.register("emerald_soulsand_bricks_stairs", () -> new ModStairsBlock(EMERALD_SOULSAND_BRICKS, SOFT_STONE_PROPERTIES()));
-    public static final RegistryObject<Block> EMERALD_SOULSAND_BRICKS_SLAB = BLOCKS.register("emerald_soulsand_bricks_slab", () -> new SlabBlock(SOFT_STONE_PROPERTIES()));
-    public static final RegistryObject<Block> EMERALD_SOULSAND_BRICKS_WALL = BLOCKS.register("emerald_soulsand_bricks_wall", () -> new WallBlock(SOFT_STONE_PROPERTIES()));
     public static final RegistryObject<Block> EMERALD_CHISELED_SOULSAND_BRICKS = BLOCKS.register("emerald_chiseled_soulsand_bricks", () -> new Block(SOFT_STONE_PROPERTIES()));
-
-
     public static final RegistryObject<Block> CHISELED_HONEY_PUMPKIN = BLOCKS.register("chiseled_honey_pumpkin", () -> new Block(SOFT_WOOD_PROPERTIES()));
     public static final RegistryObject<Block> HONEY_PUMPKIN_BRICKS = BLOCKS.register("honey_pumpkin_bricks", () -> new Block(SOFT_WOOD_PROPERTIES()));
-    public static final RegistryObject<Block> HONEY_PUMPKIN_BRICKS_STAIRS = BLOCKS.register("honey_pumpkin_bricks_stairs", () -> new ModStairsBlock(HONEY_PUMPKIN_BRICKS, SOFT_WOOD_PROPERTIES()));
-    public static final RegistryObject<Block> HONEY_PUMPKIN_BRICKS_SLAB = BLOCKS.register("honey_pumpkin_bricks_slab", () -> new SlabBlock(SOFT_WOOD_PROPERTIES()));
-    public static final RegistryObject<Block> HONEY_PUMPKIN_BRICKS_WALL = BLOCKS.register("honey_pumpkin_bricks_wall", () -> new WallBlock(SOFT_WOOD_PROPERTIES()));
     public static final RegistryObject<Block> HONEY_PUMPKIN_TILES = BLOCKS.register("honey_pumpkin_tiles", () -> new Block(SOFT_WOOD_PROPERTIES()));
+    public static final RegistryObject<Block> CUT_OBSIDIAN = BLOCKS.register("cut_obsidian", () -> new Block(OBI_PROPERTIES()));
+    public static final RegistryObject<Block> POLISHED_OBSIDIAN = BLOCKS.register("polished_obsidian", () -> new Block(OBI_PROPERTIES()));
+    public static final RegistryObject<Block> CUT_OBSIDIAN_BRICK = BLOCKS.register("cut_obsidian_brick", () -> new Block(OBI_PROPERTIES()));
+    public static final RegistryObject<Block> HALVED_OBSIDIAN = BLOCKS.register("halved_obsidian", () -> new Block(OBI_PROPERTIES()));
+    public static final RegistryObject<Block> OBSIDIAN_ADOBE = BLOCKS.register("obsidian_adobe", () -> new Block(OBI_PROPERTIES()));
+    public static final RegistryObject<Block> CHISELED_DARK_PRISMARINE_BRICKS = BLOCKS.register("chiseled_dark_prismarine_bricks", () -> new Block(STONE_PROPERTIES()));
+    public static final RegistryObject<Block> COBBLED_DARK_PRISMARINE = BLOCKS.register("cobbled_dark_prismarine", () -> new Block(STONE_PROPERTIES()));
+    public static final RegistryObject<Block> CUT_DARK_PRISMARINE_BRICKS = BLOCKS.register("cut_dark_prismarine_bricks", () -> new Block(STONE_PROPERTIES()));
+    public static final RegistryObject<Block> DARK_PRISMARINE_BRICKS = BLOCKS.register("dark_prismarine_bricks", () -> new Block(STONE_PROPERTIES()));
+    public static final RegistryObject<Block> DARK_PRISMARINE_SLAT_BRICKS = BLOCKS.register("dark_prismarine_slat_bricks", () -> new Block(STONE_PROPERTIES()));
+    public static final RegistryObject<Block> DARK_PRISMARINE_SLATS = BLOCKS.register("dark_prismarine_slats", () -> new Block(STONE_PROPERTIES()));
+    public static final RegistryObject<Block> POLISHED_DARK_PRISMARINE = BLOCKS.register("polished_dark_prismarine", () -> new Block(STONE_PROPERTIES()));
+    public static final RegistryObject<Block> GOLD_POLISHED_DARK_PRISMARINE = BLOCKS.register("gold_polished_dark_prismarine", () -> new Block(STONE_PROPERTIES()));
+    public static final RegistryObject<Block> GOLD_CHISELED_DARK_PRISMARINE_BRICKS = BLOCKS.register("gold_chiseled_dark_prismarine_bricks", () -> new Block(STONE_PROPERTIES()));
+
+
+    public static final RegistryObject<Block> COBBLED_NAUTILUS_QUARTZ_STAIRS = BLOCKS.register("cobbled_nautilus_quartz_stairs", () -> new ModStairsBlock(COBBLED_NAUTILUS_QUARTZ, STONE_PROPERTIES()));
+    public static final RegistryObject<Block> CUT_NAUTILUS_QUARTZ_BRICKS_STAIRS = BLOCKS.register("cut_nautilus_quartz_bricks_stairs", () -> new ModStairsBlock(CUT_NAUTILUS_QUARTZ_BRICKS, STONE_PROPERTIES()));
+    public static final RegistryObject<Block> POLISHED_DEBRIS_STAIRS = BLOCKS.register("polished_debris_stairs", () -> new ModStairsBlock(POLISHED_DEBRIS, HARD_STONE_PROPERTIES()));
+    public static final RegistryObject<Block> POLISHED_DEBRIS_BRICKS_STAIRS = BLOCKS.register("polished_debris_bricks_stairs", () -> new ModStairsBlock(POLISHED_DEBRIS_BRICKS, HARD_STONE_PROPERTIES()));
+    public static final RegistryObject<Block> CUT_DEBRIS_BRICKS_STAIRS = BLOCKS.register("cut_debris_bricks_stairs", () -> new ModStairsBlock(CUT_DEBRIS_BRICKS, HARD_STONE_PROPERTIES()));
+    public static final RegistryObject<Block> POLISHED_DEBRIS_TILES_STAIRS = BLOCKS.register("polished_debris_tiles_stairs", () -> new ModStairsBlock(POLISHED_DEBRIS_TILES, HARD_STONE_PROPERTIES()));
+    public static final RegistryObject<Block> SOULSTONE_STAIRS = BLOCKS.register("soulstone_stairs", () -> new ModStairsBlock(SOULSTONE, SOFT_STONE_PROPERTIES()));
+    public static final RegistryObject<Block> POLISHED_SOULSAND_STAIRS = BLOCKS.register("polished_soulsand_stairs", () -> new ModStairsBlock(POLISHED_SOULSAND, SOFT_STONE_PROPERTIES()));
+    public static final RegistryObject<Block> EMERALD_PLATED_POLISHED_SOULSAND_STAIRS = BLOCKS.register("emerald_plated_polished_soulsand_stairs", () -> new ModStairsBlock(EMERALD_PLATED_POLISHED_SOULSAND, STONE_PROPERTIES()));
+    public static final RegistryObject<Block> POLISHED_SOULSAND_BRICKS_STAIRS = BLOCKS.register("polished_soulsand_bricks_stairs", () -> new ModStairsBlock(POLISHED_SOULSAND_BRICKS, SOFT_STONE_PROPERTIES()));
+    public static final RegistryObject<Block> EMERALD_SOULSAND_BRICKS_STAIRS = BLOCKS.register("emerald_soulsand_bricks_stairs", () -> new ModStairsBlock(EMERALD_SOULSAND_BRICKS, SOFT_STONE_PROPERTIES()));
+    public static final RegistryObject<Block> HONEY_PUMPKIN_BRICKS_STAIRS = BLOCKS.register("honey_pumpkin_bricks_stairs", () -> new ModStairsBlock(HONEY_PUMPKIN_BRICKS, SOFT_WOOD_PROPERTIES()));
     public static final RegistryObject<Block> HONEY_PUMPKIN_TILES_STAIRS = BLOCKS.register("honey_pumpkin_tiles_stairs", () -> new ModStairsBlock(HONEY_PUMPKIN_TILES ,SOFT_WOOD_PROPERTIES()));
+    public static final RegistryObject<Block> POLISHED_OBSIDIAN_STAIRS = BLOCKS.register("polished_obsidian_stairs", () -> new ModStairsBlock(POLISHED_OBSIDIAN, OBI_PROPERTIES()));
+    public static final RegistryObject<Block> CUT_OBSIDIAN_STAIRS = BLOCKS.register("cut_obsidian_stairs", () -> new ModStairsBlock(CUT_OBSIDIAN, OBI_PROPERTIES()));
+    public static final RegistryObject<Block> CUT_OBSIDIAN_BRICK_STAIRS = BLOCKS.register("cut_obsidian_brick_stairs", () -> new ModStairsBlock(CUT_OBSIDIAN_BRICK, OBI_PROPERTIES()));
+    public static final RegistryObject<Block> HALVED_OBSIDIAN_STAIRS = BLOCKS.register("halved_obsidian_stairs", () -> new ModStairsBlock(HALVED_OBSIDIAN, OBI_PROPERTIES()));
+    public static final RegistryObject<Block> OBSIDIAN_ADOBE_STAIRS = BLOCKS.register("obsidian_adobe_stairs", () -> new ModStairsBlock(OBSIDIAN_ADOBE, OBI_PROPERTIES()));
+    public static final RegistryObject<Block> COBBLED_DARK_PRISMARINE_STAIRS= BLOCKS.register("cobbled_dark_prismarine_stairs", () -> new ModStairsBlock(COBBLED_DARK_PRISMARINE, STONE_PROPERTIES()));
+    public static final RegistryObject<Block> CUT_DARK_PRISMARINE_BRICKS_STAIRS = BLOCKS.register("cut_dark_prismarine_bricks_stairs", () -> new ModStairsBlock(CUT_DARK_PRISMARINE_BRICKS, STONE_PROPERTIES()));
+    public static final RegistryObject<Block> DARK_PRISMARINE_BRICKS_STAIRS = BLOCKS.register("dark_prismarine_bricks_stairs", () -> new ModStairsBlock(DARK_PRISMARINE_SLAT_BRICKS, STONE_PROPERTIES()));
+    public static final RegistryObject<Block> DARK_PRISMARINE_SLAT_BRICKS_STAIRS = BLOCKS.register("dark_prismarine_slat_bricks_stairs", () -> new ModStairsBlock(DARK_PRISMARINE_SLAT_BRICKS, STONE_PROPERTIES()));
+    public static final RegistryObject<Block> DARK_PRISMARINE_SLATS_STAIRS = BLOCKS.register("dark_prismarine_slats_stairs", () -> new ModStairsBlock(DARK_PRISMARINE_SLATS, STONE_PROPERTIES()));
+    public static final RegistryObject<Block> POLISHED_DARK_PRISMARINE_STAIRS = BLOCKS.register("polished_dark_prismarine_stairs", () -> new ModStairsBlock(POLISHED_DARK_PRISMARINE, STONE_PROPERTIES()));
+    public static final RegistryObject<Block> GOLD_POLISHED_DARK_PRISMARINE_STAIRS = BLOCKS.register("gold_polished_dark_prismarine_stairs", () -> new ModStairsBlock(GOLD_POLISHED_DARK_PRISMARINE, STONE_PROPERTIES()));
+
+
+    public static final RegistryObject<Block> COBBLED_NAUTILUS_QUARTZ_SLAB = BLOCKS.register("cobbled_nautilus_quartz_slab", () -> new SlabBlock(STONE_PROPERTIES()));
+    public static final RegistryObject<Block> CUT_NAUTILUS_QUARTZ_BRICKS_SLAB = BLOCKS.register("cut_nautilus_quartz_bricks_slab", () -> new SlabBlock(STONE_PROPERTIES()));
+    public static final RegistryObject<Block> POLISHED_DEBRIS_SLAB = BLOCKS.register("polished_debris_slab", () -> new SlabBlock(HARD_STONE_PROPERTIES()));
+    public static final RegistryObject<Block> POLISHED_DEBRIS_BRICKS_SLAB = BLOCKS.register("polished_debris_bricks_slab", () -> new SlabBlock(HARD_STONE_PROPERTIES()));
+    public static final RegistryObject<Block> CUT_DEBRIS_BRICKS_SLAB = BLOCKS.register("cut_debris_bricks_slab", () -> new SlabBlock(HARD_STONE_PROPERTIES()));
+    public static final RegistryObject<Block> POLISHED_DEBRIS_TILES_SLAB = BLOCKS.register("polished_debris_tiles_slab", () -> new SlabBlock(HARD_STONE_PROPERTIES()));
+    public static final RegistryObject<Block> SOULSTONE_SLAB = BLOCKS.register("soulstone_slab", () -> new SlabBlock(SOFT_STONE_PROPERTIES()));
+    public static final RegistryObject<Block> POLISHED_SOULSAND_SLAB = BLOCKS.register("polished_soulsand_slab", () -> new SlabBlock(SOFT_STONE_PROPERTIES()));
+    public static final RegistryObject<Block> EMERALD_PLATED_POLISHED_SOULSAND_SLAB = BLOCKS.register("emerald_plated_polished_soulsand_slab", () -> new SlabBlock(STONE_PROPERTIES()));
+    public static final RegistryObject<Block> POLISHED_SOULSAND_BRICKS_SLAB = BLOCKS.register("polished_soulsand_bricks_slab", () -> new SlabBlock(SOFT_STONE_PROPERTIES()));
+    public static final RegistryObject<Block> EMERALD_SOULSAND_BRICKS_SLAB = BLOCKS.register("emerald_soulsand_bricks_slab", () -> new SlabBlock(SOFT_STONE_PROPERTIES()));
+    public static final RegistryObject<Block> HONEY_PUMPKIN_BRICKS_SLAB = BLOCKS.register("honey_pumpkin_bricks_slab", () -> new SlabBlock(SOFT_WOOD_PROPERTIES()));
     public static final RegistryObject<Block> HONEY_PUMPKIN_TILES_SLAB = BLOCKS.register("honey_pumpkin_tiles_slab", () -> new SlabBlock(SOFT_WOOD_PROPERTIES()));
+    public static final RegistryObject<Block> POLISHED_OBSIDIAN_SLAB = BLOCKS.register("polished_obsidian_slab", () -> new SlabBlock(OBI_PROPERTIES()));
+    public static final RegistryObject<Block> CUT_OBSIDIAN_SLAB = BLOCKS.register("cut_obsidian_slab", () -> new SlabBlock(OBI_PROPERTIES()));
+    public static final RegistryObject<Block> CUT_OBSIDIAN_BRICK_SLAB = BLOCKS.register("cut_obsidian_brick_slab", () -> new SlabBlock(OBI_PROPERTIES()));
+    public static final RegistryObject<Block> HALVED_OBSIDIAN_SLAB = BLOCKS.register("halved_obsidian_slab", () -> new SlabBlock(OBI_PROPERTIES()));
+    public static final RegistryObject<Block> OBSIDIAN_ADOBE_SLAB = BLOCKS.register("obsidian_adobe_slab", () -> new SlabBlock(OBI_PROPERTIES()));
+    public static final RegistryObject<Block> COBBLED_DARK_PRISMARINE_SLAB = BLOCKS.register("cobbled_dark_prismarine_slab", () -> new SlabBlock(STONE_PROPERTIES()));
+    public static final RegistryObject<Block> CUT_DARK_PRISMARINE_BRICKS_SLAB = BLOCKS.register("cut_dark_prismarine_bricks_slab", () -> new SlabBlock(STONE_PROPERTIES()));
+    public static final RegistryObject<Block> DARK_PRISMARINE_BRICKS_SLAB = BLOCKS.register("dark_prismarine_bricks_slab", () -> new SlabBlock(STONE_PROPERTIES()));
+    public static final RegistryObject<Block> DARK_PRISMARINE_SLAT_BRICKS_SLAB = BLOCKS.register("dark_prismarine_slat_bricks_slab", () -> new SlabBlock(STONE_PROPERTIES()));
+    public static final RegistryObject<Block> DARK_PRISMARINE_SLATS_SLAB = BLOCKS.register("dark_prismarine_slats_slab", () -> new SlabBlock(STONE_PROPERTIES()));
+    public static final RegistryObject<Block> POLISHED_DARK_PRISMARINE_SLAB = BLOCKS.register("polished_dark_prismarine_slab", () -> new SlabBlock(STONE_PROPERTIES()));
+    public static final RegistryObject<Block> GOLD_POLISHED_DARK_PRISMARINE_SLAB = BLOCKS.register("gold_polished_dark_prismarine_slab", () -> new SlabBlock(STONE_PROPERTIES()));
+
+    public static final RegistryObject<Block> COBBLED_NAUTILUS_QUARTZ_WALL = BLOCKS.register("cobbled_nautilus_quartz_wall", () -> new WallBlock(STONE_PROPERTIES()));
+    public static final RegistryObject<Block> CUT_NAUTILUS_QUARTZ_BRICKS_WALL = BLOCKS.register("cut_nautilus_quartz_bricks_wall", () -> new WallBlock(STONE_PROPERTIES()));
+    public static final RegistryObject<Block> POLISHED_DEBRIS_WALL = BLOCKS.register("polished_debris_wall", () -> new WallBlock(HARD_STONE_PROPERTIES()));
+    public static final RegistryObject<Block> POLISHED_DEBRIS_BRICKS_WALL = BLOCKS.register("polished_debris_bricks_wall", () -> new WallBlock(HARD_STONE_PROPERTIES()));
+    public static final RegistryObject<Block> CUT_DEBRIS_BRICKS_WALL = BLOCKS.register("cut_debris_bricks_wall", () -> new WallBlock(HARD_STONE_PROPERTIES()));
+    public static final RegistryObject<Block> POLISHED_DEBRIS_TILES_WALL = BLOCKS.register("polished_debris_tiles_wall", () -> new WallBlock(HARD_STONE_PROPERTIES()));
+    public static final RegistryObject<Block> SOULSTONE_WALL = BLOCKS.register("soulstone_wall", () -> new WallBlock(SOFT_STONE_PROPERTIES()));
+    public static final RegistryObject<Block> POLISHED_SOULSAND_WALL = BLOCKS.register("polished_soulsand_wall", () -> new WallBlock(SOFT_STONE_PROPERTIES()));
+    public static final RegistryObject<Block> EMERALD_PLATED_POLISHED_SOULSAND_WALL = BLOCKS.register("emerald_plated_polished_soulsand_wall", () -> new WallBlock(STONE_PROPERTIES()));
+    public static final RegistryObject<Block> POLISHED_SOULSAND_BRICKS_WALL = BLOCKS.register("polished_soulsand_bricks_wall", () -> new WallBlock(SOFT_STONE_PROPERTIES()));
+    public static final RegistryObject<Block> EMERALD_SOULSAND_BRICKS_WALL = BLOCKS.register("emerald_soulsand_bricks_wall", () -> new WallBlock(SOFT_STONE_PROPERTIES()));
+    public static final RegistryObject<Block> HONEY_PUMPKIN_BRICKS_WALL = BLOCKS.register("honey_pumpkin_bricks_wall", () -> new WallBlock(SOFT_WOOD_PROPERTIES()));
     public static final RegistryObject<Block> HONEY_PUMPKIN_TILES_WALL = BLOCKS.register("honey_pumpkin_tiles_wall", () -> new WallBlock(SOFT_WOOD_PROPERTIES()));
+    public static final RegistryObject<Block> COBBLED_DARK_PRISMARINE_WALL = BLOCKS.register("cobbled_dark_prismarine_wall", () -> new WallBlock(STONE_PROPERTIES()));
+    public static final RegistryObject<Block> CUT_DARK_PRISMARINE_BRICKS_WALL = BLOCKS.register("cut_dark_prismarine_bricks_wall", () -> new WallBlock(STONE_PROPERTIES()));
+    public static final RegistryObject<Block> DARK_PRISMARINE_BRICKS_WALL = BLOCKS.register("dark_prismarine_bricks_wall", () -> new WallBlock(STONE_PROPERTIES()));
+    public static final RegistryObject<Block> DARK_PRISMARINE_SLAT_BRICKS_WALL = BLOCKS.register("dark_prismarine_slat_bricks_wall", () -> new WallBlock(STONE_PROPERTIES()));
+    public static final RegistryObject<Block> DARK_PRISMARINE_SLATS_WALL = BLOCKS.register("dark_prismarine_slats_wall", () -> new WallBlock(STONE_PROPERTIES()));
+    public static final RegistryObject<Block> POLISHED_DARK_PRISMARINE_WALL = BLOCKS.register("polished_dark_prismarine_wall", () -> new WallBlock(STONE_PROPERTIES()));
+    public static final RegistryObject<Block> GOLD_POLISHED_DARK_PRISMARINE_WALL = BLOCKS.register("gold_polished_dark_prismarine_wall", () -> new WallBlock(STONE_PROPERTIES()));
+
     public static final RegistryObject<Block> HONEY_PUMPKIN_TILES_FENCE = BLOCKS.register("honey_pumpkin_tiles_fence", () -> new FenceBlock(SOFT_WOOD_PROPERTIES()));
+
+
+
+
+
 
     public static final RegistryObject<Block> EXAMPLE_BLOCK = BLOCKS.register("example_block", () -> new Block(EXAMPLE_PROPERTIES()));
     public static final RegistryObject<Block> EXAMPLE_BLOCK_SLAB = BLOCKS.register("example_block_slab", () -> new SlabBlock(EXAMPLE_PROPERTIES()));
@@ -123,23 +175,4 @@ public class VariousBlocks
 
     public static final RegistryObject<Block> EXAMPLE_PILLAR_BLOCK = BLOCKS.register("example_pillar_block", () -> new RotatedPillarBlock(EXAMPLE_PROPERTIES()));
 
-    public static final RegistryObject<Block> POLISHED_OBSIDIAN = BLOCKS.register("polished_obsidian", () -> new Block(OBI_PROPERTIES()));
-    public static final RegistryObject<Block> POLISHED_OBSIDIAN_SLAB = BLOCKS.register("polished_obsidian_slab", () -> new SlabBlock(OBI_PROPERTIES()));
-    public static final RegistryObject<Block> POLISHED_OBSIDIAN_STAIRS = BLOCKS.register("polished_obsidian_stairs", () -> new ModStairsBlock(POLISHED_OBSIDIAN, OBI_PROPERTIES()));
-
-    public static final RegistryObject<Block> CUT_OBSIDIAN = BLOCKS.register("cut_obsidian", () -> new Block(OBI_PROPERTIES()));
-    public static final RegistryObject<Block> CUT_OBSIDIAN_SLAB = BLOCKS.register("cut_obsidian_slab", () -> new SlabBlock(OBI_PROPERTIES()));
-    public static final RegistryObject<Block> CUT_OBSIDIAN_STAIRS = BLOCKS.register("cut_obsidian_stairs", () -> new ModStairsBlock(CUT_OBSIDIAN, OBI_PROPERTIES()));
-
-    public static final RegistryObject<Block> CUT_OBSIDIAN_BRICK = BLOCKS.register("cut_obsidian_brick", () -> new Block(OBI_PROPERTIES()));
-    public static final RegistryObject<Block> CUT_OBSIDIAN_BRICK_SLAB = BLOCKS.register("cut_obsidian_brick_slab", () -> new SlabBlock(OBI_PROPERTIES()));
-    public static final RegistryObject<Block> CUT_OBSIDIAN_BRICK_STAIRS = BLOCKS.register("cut_obsidian_brick_stairs", () -> new ModStairsBlock(CUT_OBSIDIAN_BRICK, OBI_PROPERTIES()));
-
-    public static final RegistryObject<Block> HALVED_OBSIDIAN = BLOCKS.register("halved_obsidian", () -> new Block(OBI_PROPERTIES()));
-    public static final RegistryObject<Block> HALVED_OBSIDIAN_SLAB = BLOCKS.register("halved_obsidian_slab", () -> new SlabBlock(OBI_PROPERTIES()));
-    public static final RegistryObject<Block> HALVED_OBSIDIAN_STAIRS = BLOCKS.register("halved_obsidian_stairs", () -> new ModStairsBlock(HALVED_OBSIDIAN, OBI_PROPERTIES()));
-
-    public static final RegistryObject<Block> OBSIDIAN_ADOBE = BLOCKS.register("obsidian_adobe", () -> new Block(OBI_PROPERTIES()));
-    public static final RegistryObject<Block> OBSIDIAN_ADOBE_SLAB = BLOCKS.register("obsidian_adobe_slab", () -> new SlabBlock(OBI_PROPERTIES()));
-    public static final RegistryObject<Block> OBSIDIAN_ADOBE_STAIRS = BLOCKS.register("obsidian_adobe_stairs", () -> new ModStairsBlock(OBSIDIAN_ADOBE, OBI_PROPERTIES()));
 }

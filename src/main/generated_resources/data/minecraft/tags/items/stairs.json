@@ -14,11 +14,18 @@
     "our_various_tiles:emerald_soulsand_bricks_stairs",
     "our_various_tiles:honey_pumpkin_bricks_stairs",
     "our_various_tiles:honey_pumpkin_tiles_stairs",
-    "our_various_tiles:example_block_stairs",
     "our_various_tiles:polished_obsidian_stairs",
     "our_various_tiles:cut_obsidian_stairs",
     "our_various_tiles:cut_obsidian_brick_stairs",
     "our_various_tiles:halved_obsidian_stairs",
-    "our_various_tiles:obsidian_adobe_stairs"
+    "our_various_tiles:obsidian_adobe_stairs",
+    "our_various_tiles:cobbled_dark_prismarine_stairs",
+    "our_various_tiles:cut_dark_prismarine_bricks_stairs",
+    "our_various_tiles:dark_prismarine_bricks_stairs",
+    "our_various_tiles:dark_prismarine_slat_bricks_stairs",
+    "our_various_tiles:dark_prismarine_slats_stairs",
+    "our_various_tiles:polished_dark_prismarine_stairs",
+    "our_various_tiles:gold_polished_dark_prismarine_stairs",
+    "our_various_tiles:example_block_stairs"
   ]
 }

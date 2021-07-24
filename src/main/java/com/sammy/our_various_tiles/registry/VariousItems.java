@@ -18,72 +18,106 @@ public class VariousItems
         return new Item.Properties().group(VariousBlocksCreativeTab.INSTANCE);
     }
     public static final RegistryObject<Item> COBBLED_NAUTILUS_QUARTZ = ITEMS.register("cobbled_nautilus_quartz", () -> new BlockItem(VariousBlocks.COBBLED_NAUTILUS_QUARTZ.get(), DEFAULT_PROPERTIES()));
-    public static final RegistryObject<Item> COBBLED_NAUTILUS_QUARTZ_SLAB = ITEMS.register("cobbled_nautilus_quartz_slab", () -> new BlockItem(VariousBlocks.COBBLED_NAUTILUS_QUARTZ_SLAB.get(), DEFAULT_PROPERTIES()));
-    public static final RegistryObject<Item> COBBLED_NAUTILUS_QUARTZ_STAIRS = ITEMS.register("cobbled_nautilus_quartz_stairs", () -> new BlockItem(VariousBlocks.COBBLED_NAUTILUS_QUARTZ_STAIRS.get(), DEFAULT_PROPERTIES()));
-    public static final RegistryObject<Item> COBBLED_NAUTILUS_QUARTZ_WALL = ITEMS.register("cobbled_nautilus_quartz_wall", () -> new BlockItem(VariousBlocks.COBBLED_NAUTILUS_QUARTZ_WALL.get(), DEFAULT_PROPERTIES()));
     public static final RegistryObject<Item> CHISELED_NAUTILUS_QUARTZ = ITEMS.register("chiseled_nautilus_quartz", () -> new BlockItem(VariousBlocks.CHISELED_NAUTILUS_QUARTZ.get(), DEFAULT_PROPERTIES()));
     public static final RegistryObject<Item> POLISHED_NAUTILUS_QUARTZ = ITEMS.register("polished_nautilus_quartz", () -> new BlockItem(VariousBlocks.POLISHED_NAUTILUS_QUARTZ.get(), DEFAULT_PROPERTIES()));
     public static final RegistryObject<Item> CUT_NAUTILUS_QUARTZ_BRICKS = ITEMS.register("cut_nautilus_quartz_bricks", () -> new BlockItem(VariousBlocks.CUT_NAUTILUS_QUARTZ_BRICKS.get(), DEFAULT_PROPERTIES()));
-    public static final RegistryObject<Item> CUT_NAUTILUS_QUARTZ_BRICKS_STAIRS = ITEMS.register("cut_nautilus_quartz_bricks_stairs", () -> new BlockItem(VariousBlocks.CUT_NAUTILUS_QUARTZ_BRICKS_STAIRS.get(), DEFAULT_PROPERTIES()));
-    public static final RegistryObject<Item> CUT_NAUTILUS_QUARTZ_BRICKS_SLAB = ITEMS.register("cut_nautilus_quartz_bricks_slab", () -> new BlockItem(VariousBlocks.CUT_NAUTILUS_QUARTZ_BRICKS_SLAB.get(), DEFAULT_PROPERTIES()));
-    public static final RegistryObject<Item> CUT_NAUTILUS_QUARTZ_BRICKS_WALL = ITEMS.register("cut_nautilus_quartz_bricks_wall", () -> new BlockItem(VariousBlocks.CUT_NAUTILUS_QUARTZ_BRICKS_WALL.get(), DEFAULT_PROPERTIES()));
-
     public static final RegistryObject<Item> POLISHED_DEBRIS = ITEMS.register("polished_debris", () -> new BlockItem(VariousBlocks.POLISHED_DEBRIS.get(), DEFAULT_PROPERTIES()));
-    public static final RegistryObject<Item> POLISHED_DEBRIS_STAIRS = ITEMS.register("polished_debris_stairs", () -> new BlockItem(VariousBlocks.POLISHED_DEBRIS_STAIRS.get(), DEFAULT_PROPERTIES()));
-    public static final RegistryObject<Item> POLISHED_DEBRIS_SLAB = ITEMS.register("polished_debris_slab", () -> new BlockItem(VariousBlocks.POLISHED_DEBRIS_SLAB.get(), DEFAULT_PROPERTIES()));
-    public static final RegistryObject<Item> POLISHED_DEBRIS_WALL = ITEMS.register("polished_debris_wall", () -> new BlockItem(VariousBlocks.POLISHED_DEBRIS_WALL.get(), DEFAULT_PROPERTIES()));
     public static final RegistryObject<Item> POLISHED_DEBRIS_BRICKS = ITEMS.register("polished_debris_bricks", () -> new BlockItem(VariousBlocks.POLISHED_DEBRIS_BRICKS.get(), DEFAULT_PROPERTIES()));
-    public static final RegistryObject<Item> POLISHED_DEBRIS_BRICKS_STAIRS = ITEMS.register("polished_debris_bricks_stairs", () -> new BlockItem(VariousBlocks.POLISHED_DEBRIS_BRICKS_STAIRS.get(), DEFAULT_PROPERTIES()));
-    public static final RegistryObject<Item> POLISHED_DEBRIS_BRICKS_SLAB = ITEMS.register("polished_debris_bricks_slab", () -> new BlockItem(VariousBlocks.POLISHED_DEBRIS_BRICKS_SLAB.get(), DEFAULT_PROPERTIES()));
-    public static final RegistryObject<Item> POLISHED_DEBRIS_BRICKS_WALL = ITEMS.register("polished_debris_bricks_wall", () -> new BlockItem(VariousBlocks.POLISHED_DEBRIS_BRICKS_WALL.get(), DEFAULT_PROPERTIES()));
     public static final RegistryObject<Item> CUT_DEBRIS_BRICKS = ITEMS.register("cut_debris_bricks", () -> new BlockItem(VariousBlocks.CUT_DEBRIS_BRICKS.get(), DEFAULT_PROPERTIES()));
-    public static final RegistryObject<Item> CUT_DEBRIS_BRICKS_STAIRS = ITEMS.register("cut_debris_bricks_stairs", () -> new BlockItem(VariousBlocks.CUT_DEBRIS_BRICKS_STAIRS.get(), DEFAULT_PROPERTIES()));
-    public static final RegistryObject<Item> CUT_DEBRIS_BRICKS_SLAB = ITEMS.register("cut_debris_bricks_slab", () -> new BlockItem(VariousBlocks.CUT_DEBRIS_BRICKS_SLAB.get(), DEFAULT_PROPERTIES()));
-    public static final RegistryObject<Item> CUT_DEBRIS_BRICKS_WALL = ITEMS.register("cut_debris_bricks_wall", () -> new BlockItem(VariousBlocks.CUT_DEBRIS_BRICKS_WALL.get(), DEFAULT_PROPERTIES()));
     public static final RegistryObject<Item> POLISHED_DEBRIS_TILES = ITEMS.register("polished_debris_tiles", () -> new BlockItem(VariousBlocks.POLISHED_DEBRIS_TILES.get(), DEFAULT_PROPERTIES()));
-    public static final RegistryObject<Item> POLISHED_DEBRIS_TILES_STAIRS = ITEMS.register("polished_debris_tiles_stairs", () -> new BlockItem(VariousBlocks.POLISHED_DEBRIS_TILES_STAIRS.get(), DEFAULT_PROPERTIES()));
-    public static final RegistryObject<Item> POLISHED_DEBRIS_TILES_SLAB = ITEMS.register("polished_debris_tiles_slab", () -> new BlockItem(VariousBlocks.POLISHED_DEBRIS_TILES_SLAB.get(), DEFAULT_PROPERTIES()));
-    public static final RegistryObject<Item> POLISHED_DEBRIS_TILES_WALL = ITEMS.register("polished_debris_tiles_wall", () -> new BlockItem(VariousBlocks.POLISHED_DEBRIS_TILES_WALL.get(), DEFAULT_PROPERTIES()));
     public static final RegistryObject<Item> CHISELED_DEBRIS_BRICKS = ITEMS.register("chiseled_debris_bricks", () -> new BlockItem(VariousBlocks.CHISELED_DEBRIS_BRICKS.get(), DEFAULT_PROPERTIES()));
     public static final RegistryObject<Item> DEBRIS_SHINGLES = ITEMS.register("debris_shingles", () -> new BlockItem(VariousBlocks.DEBRIS_SHINGLES.get(), DEFAULT_PROPERTIES()));
-
     public static final RegistryObject<Item> SOULSTONE = ITEMS.register("soulstone", () -> new BlockItem(VariousBlocks.SOULSTONE.get(), DEFAULT_PROPERTIES()));
-    public static final RegistryObject<Item> SOULSTONE_STAIRS = ITEMS.register("soulstone_stairs", () -> new BlockItem(VariousBlocks.SOULSTONE_STAIRS.get(), DEFAULT_PROPERTIES()));
-    public static final RegistryObject<Item> SOULSTONE_SLAB = ITEMS.register("soulstone_slab", () -> new BlockItem(VariousBlocks.SOULSTONE_SLAB.get(), DEFAULT_PROPERTIES()));
-    public static final RegistryObject<Item> SOULSTONE_WALL = ITEMS.register("soulstone_wall", () -> new BlockItem(VariousBlocks.SOULSTONE_WALL.get(), DEFAULT_PROPERTIES()));
     public static final RegistryObject<Item> POLISHED_SOULSAND = ITEMS.register("polished_soulsand", () -> new BlockItem(VariousBlocks.POLISHED_SOULSAND.get(), DEFAULT_PROPERTIES()));
-    public static final RegistryObject<Item> POLISHED_SOULSAND_STAIRS = ITEMS.register("polished_soulsand_stairs", () -> new BlockItem(VariousBlocks.POLISHED_SOULSAND_STAIRS.get(), DEFAULT_PROPERTIES()));
-    public static final RegistryObject<Item> POLISHED_SOULSAND_SLAB = ITEMS.register("polished_soulsand_slab", () -> new BlockItem(VariousBlocks.POLISHED_SOULSAND_SLAB.get(), DEFAULT_PROPERTIES()));
-    public static final RegistryObject<Item> POLISHED_SOULSAND_WALL = ITEMS.register("polished_soulsand_wall", () -> new BlockItem(VariousBlocks.POLISHED_SOULSAND_WALL.get(), DEFAULT_PROPERTIES()));
     public static final RegistryObject<Item> EMERALD_PLATED_POLISHED_SOULSAND = ITEMS.register("emerald_plated_polished_soulsand", () -> new BlockItem(VariousBlocks.EMERALD_PLATED_POLISHED_SOULSAND.get(), DEFAULT_PROPERTIES()));
-    public static final RegistryObject<Item> EMERALD_PLATED_POLISHED_SOULSAND_STAIRS = ITEMS.register("emerald_plated_polished_soulsand_stairs", () -> new BlockItem(VariousBlocks.EMERALD_PLATED_POLISHED_SOULSAND_STAIRS.get(), DEFAULT_PROPERTIES()));
-    public static final RegistryObject<Item> EMERALD_PLATED_POLISHED_SOULSAND_SLAB = ITEMS.register("emerald_plated_polished_soulsand_slab", () -> new BlockItem(VariousBlocks.EMERALD_PLATED_POLISHED_SOULSAND_SLAB.get(), DEFAULT_PROPERTIES()));
-    public static final RegistryObject<Item> EMERALD_PLATED_POLISHED_SOULSAND_WALL = ITEMS.register("emerald_plated_polished_soulsand_wall", () -> new BlockItem(VariousBlocks.EMERALD_PLATED_POLISHED_SOULSAND_WALL.get(), DEFAULT_PROPERTIES()));
     public static final RegistryObject<Item> POLISHED_SOULSAND_BRICKS = ITEMS.register("polished_soulsand_bricks", () -> new BlockItem(VariousBlocks.POLISHED_SOULSAND_BRICKS.get(), DEFAULT_PROPERTIES()));
-    public static final RegistryObject<Item> POLISHED_SOULSAND_BRICKS_STAIRS = ITEMS.register("polished_soulsand_bricks_stairs", () -> new BlockItem(VariousBlocks.POLISHED_SOULSAND_BRICKS_STAIRS.get(), DEFAULT_PROPERTIES()));
-    public static final RegistryObject<Item> POLISHED_SOULSAND_BRICKS_SLAB = ITEMS.register("polished_soulsand_bricks_slab", () -> new BlockItem(VariousBlocks.POLISHED_SOULSAND_BRICKS_SLAB.get(), DEFAULT_PROPERTIES()));
-    public static final RegistryObject<Item> POLISHED_SOULSAND_BRICKS_WALL = ITEMS.register("polished_soulsand_bricks_wall", () -> new BlockItem(VariousBlocks.POLISHED_SOULSAND_BRICKS_WALL.get(), DEFAULT_PROPERTIES()));
     public static final RegistryObject<Item> EMERALD_SOULSAND_BRICKS = ITEMS.register("emerald_soulsand_bricks", () -> new BlockItem(VariousBlocks.EMERALD_SOULSAND_BRICKS.get(), DEFAULT_PROPERTIES()));
-    public static final RegistryObject<Item> EMERALD_SOULSAND_BRICKS_STAIRS = ITEMS.register("emerald_soulsand_bricks_stairs", () -> new BlockItem(VariousBlocks.EMERALD_SOULSAND_BRICKS_STAIRS.get(), DEFAULT_PROPERTIES()));
-    public static final RegistryObject<Item> EMERALD_SOULSAND_BRICKS_SLAB = ITEMS.register("emerald_soulsand_bricks_slab", () -> new BlockItem(VariousBlocks.EMERALD_SOULSAND_BRICKS_SLAB.get(), DEFAULT_PROPERTIES()));
-    public static final RegistryObject<Item> EMERALD_SOULSAND_BRICKS_WALL = ITEMS.register("emerald_soulsand_bricks_wall", () -> new BlockItem(VariousBlocks.EMERALD_SOULSAND_BRICKS_WALL.get(), DEFAULT_PROPERTIES()));
     public static final RegistryObject<Item> EMERALD_CHISELED_SOULSAND_BRICKS = ITEMS.register("emerald_chiseled_soulsand_bricks", () -> new BlockItem(VariousBlocks.EMERALD_CHISELED_SOULSAND_BRICKS.get(), DEFAULT_PROPERTIES()));
-
     public static final RegistryObject<Item> CHISELED_HONEY_PUMPKIN = ITEMS.register("chiseled_honey_pumpkin", () -> new BlockItem(VariousBlocks.CHISELED_HONEY_PUMPKIN.get(), DEFAULT_PROPERTIES()));
     public static final RegistryObject<Item> HONEY_PUMPKIN_BRICKS = ITEMS.register("honey_pumpkin_bricks", () -> new BlockItem(VariousBlocks.HONEY_PUMPKIN_BRICKS.get(), DEFAULT_PROPERTIES()));
-    public static final RegistryObject<Item> HONEY_PUMPKIN_BRICKS_STAIRS = ITEMS.register("honey_pumpkin_bricks_stairs", () -> new BlockItem(VariousBlocks.HONEY_PUMPKIN_BRICKS_STAIRS.get(), DEFAULT_PROPERTIES()));
-    public static final RegistryObject<Item> HONEY_PUMPKIN_BRICKS_SLAB = ITEMS.register("honey_pumpkin_bricks_slab", () -> new BlockItem(VariousBlocks.HONEY_PUMPKIN_BRICKS_SLAB.get(), DEFAULT_PROPERTIES()));
-    public static final RegistryObject<Item> HONEY_PUMPKIN_BRICKS_WALL = ITEMS.register("honey_pumpkin_bricks_wall", () -> new BlockItem(VariousBlocks.HONEY_PUMPKIN_BRICKS_WALL.get(), DEFAULT_PROPERTIES()));
     public static final RegistryObject<Item> HONEY_PUMPKIN_TILES = ITEMS.register("honey_pumpkin_tiles", () -> new BlockItem(VariousBlocks.HONEY_PUMPKIN_TILES.get(), DEFAULT_PROPERTIES()));
-    public static final RegistryObject<Item> HONEY_PUMPKIN_TILES_STAIRS = ITEMS.register("honey_pumpkin_tiles_stairs", () -> new BlockItem(VariousBlocks.HONEY_PUMPKIN_TILES_STAIRS.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> CHISELED_DARK_PRISMARINE_BRICKS = ITEMS.register("chiseled_dark_prismarine_bricks", () -> new BlockItem(VariousBlocks.CHISELED_DARK_PRISMARINE_BRICKS.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> COBBLED_DARK_PRISMARINE = ITEMS.register("cobbled_dark_prismarine", () -> new BlockItem(VariousBlocks.COBBLED_DARK_PRISMARINE.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> CUT_DARK_PRISMARINE_BRICKS = ITEMS.register("cut_dark_prismarine_bricks", () -> new BlockItem(VariousBlocks.CUT_DARK_PRISMARINE_BRICKS.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> DARK_PRISMARINE_BRICKS = ITEMS.register("dark_prismarine_bricks", () -> new BlockItem(VariousBlocks.DARK_PRISMARINE_BRICKS.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> DARK_PRISMARINE_SLAT_BRICKS = ITEMS.register("dark_prismarine_slat_bricks", () -> new BlockItem(VariousBlocks.DARK_PRISMARINE_SLAT_BRICKS.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> DARK_PRISMARINE_SLATS = ITEMS.register("dark_prismarine_slats", () -> new BlockItem(VariousBlocks.DARK_PRISMARINE_SLATS.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> POLISHED_DARK_PRISMARINE = ITEMS.register("polished_dark_prismarine", () -> new BlockItem(VariousBlocks.POLISHED_DARK_PRISMARINE.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> GOLD_POLISHED_DARK_PRISMARINE = ITEMS.register("gold_polished_dark_prismarine", () -> new BlockItem(VariousBlocks.GOLD_POLISHED_DARK_PRISMARINE.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> GOLD_CHISELED_DARK_PRISMARINE_BRICKS = ITEMS.register("gold_chiseled_dark_prismarine_bricks", () -> new BlockItem(VariousBlocks.GOLD_CHISELED_DARK_PRISMARINE_BRICKS.get(), DEFAULT_PROPERTIES()));
+
+
+    public static final RegistryObject<Item> COBBLED_NAUTILUS_QUARTZ_SLAB = ITEMS.register("cobbled_nautilus_quartz_slab", () -> new BlockItem(VariousBlocks.COBBLED_NAUTILUS_QUARTZ_SLAB.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> CUT_NAUTILUS_QUARTZ_BRICKS_SLAB = ITEMS.register("cut_nautilus_quartz_bricks_slab", () -> new BlockItem(VariousBlocks.CUT_NAUTILUS_QUARTZ_BRICKS_SLAB.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> POLISHED_DEBRIS_SLAB = ITEMS.register("polished_debris_slab", () -> new BlockItem(VariousBlocks.POLISHED_DEBRIS_SLAB.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> POLISHED_DEBRIS_BRICKS_SLAB = ITEMS.register("polished_debris_bricks_slab", () -> new BlockItem(VariousBlocks.POLISHED_DEBRIS_BRICKS_SLAB.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> CUT_DEBRIS_BRICKS_SLAB = ITEMS.register("cut_debris_bricks_slab", () -> new BlockItem(VariousBlocks.CUT_DEBRIS_BRICKS_SLAB.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> POLISHED_DEBRIS_TILES_SLAB = ITEMS.register("polished_debris_tiles_slab", () -> new BlockItem(VariousBlocks.POLISHED_DEBRIS_TILES_SLAB.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> SOULSTONE_SLAB = ITEMS.register("soulstone_slab", () -> new BlockItem(VariousBlocks.SOULSTONE_SLAB.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> POLISHED_SOULSAND_SLAB = ITEMS.register("polished_soulsand_slab", () -> new BlockItem(VariousBlocks.POLISHED_SOULSAND_SLAB.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> EMERALD_PLATED_POLISHED_SOULSAND_SLAB = ITEMS.register("emerald_plated_polished_soulsand_slab", () -> new BlockItem(VariousBlocks.EMERALD_PLATED_POLISHED_SOULSAND_SLAB.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> POLISHED_SOULSAND_BRICKS_SLAB = ITEMS.register("polished_soulsand_bricks_slab", () -> new BlockItem(VariousBlocks.POLISHED_SOULSAND_BRICKS_SLAB.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> EMERALD_SOULSAND_BRICKS_SLAB = ITEMS.register("emerald_soulsand_bricks_slab", () -> new BlockItem(VariousBlocks.EMERALD_SOULSAND_BRICKS_SLAB.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> HONEY_PUMPKIN_BRICKS_SLAB = ITEMS.register("honey_pumpkin_bricks_slab", () -> new BlockItem(VariousBlocks.HONEY_PUMPKIN_BRICKS_SLAB.get(), DEFAULT_PROPERTIES()));
     public static final RegistryObject<Item> HONEY_PUMPKIN_TILES_SLAB = ITEMS.register("honey_pumpkin_tiles_slab", () -> new BlockItem(VariousBlocks.HONEY_PUMPKIN_TILES_SLAB.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> COBBLED_DARK_PRISMARINE_SLAB = ITEMS.register("cobbled_dark_prismarine_slab", () -> new BlockItem(VariousBlocks.COBBLED_DARK_PRISMARINE_SLAB.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> CUT_DARK_PRISMARINE_BRICKS_SLAB = ITEMS.register("cut_dark_prismarine_bricks_slab", () -> new BlockItem(VariousBlocks.CUT_DARK_PRISMARINE_BRICKS_SLAB.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> DARK_PRISMARINE_BRICKS_SLAB = ITEMS.register("dark_prismarine_bricks_slab", () -> new BlockItem(VariousBlocks.DARK_PRISMARINE_BRICKS_SLAB.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> DARK_PRISMARINE_SLAT_BRICKS_SLAB = ITEMS.register("dark_prismarine_slat_bricks_slab", () -> new BlockItem(VariousBlocks.DARK_PRISMARINE_SLAT_BRICKS_SLAB.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> DARK_PRISMARINE_SLATS_SLAB = ITEMS.register("dark_prismarine_slats_slab", () -> new BlockItem(VariousBlocks.DARK_PRISMARINE_SLATS_SLAB.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> POLISHED_DARK_PRISMARINE_SLAB = ITEMS.register("polished_dark_prismarine_slab", () -> new BlockItem(VariousBlocks.POLISHED_DARK_PRISMARINE_SLAB.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> GOLD_POLISHED_DARK_PRISMARINE_SLAB = ITEMS.register("gold_polished_dark_prismarine_slab", () -> new BlockItem(VariousBlocks.GOLD_POLISHED_DARK_PRISMARINE_SLAB.get(), DEFAULT_PROPERTIES()));
+
+
+    public static final RegistryObject<Item> COBBLED_NAUTILUS_QUARTZ_STAIRS = ITEMS.register("cobbled_nautilus_quartz_stairs", () -> new BlockItem(VariousBlocks.COBBLED_NAUTILUS_QUARTZ_STAIRS.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> CUT_NAUTILUS_QUARTZ_BRICKS_STAIRS = ITEMS.register("cut_nautilus_quartz_bricks_stairs", () -> new BlockItem(VariousBlocks.CUT_NAUTILUS_QUARTZ_BRICKS_STAIRS.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> POLISHED_DEBRIS_STAIRS = ITEMS.register("polished_debris_stairs", () -> new BlockItem(VariousBlocks.POLISHED_DEBRIS_STAIRS.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> POLISHED_DEBRIS_BRICKS_STAIRS = ITEMS.register("polished_debris_bricks_stairs", () -> new BlockItem(VariousBlocks.POLISHED_DEBRIS_BRICKS_STAIRS.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> CUT_DEBRIS_BRICKS_STAIRS = ITEMS.register("cut_debris_bricks_stairs", () -> new BlockItem(VariousBlocks.CUT_DEBRIS_BRICKS_STAIRS.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> POLISHED_DEBRIS_TILES_STAIRS = ITEMS.register("polished_debris_tiles_stairs", () -> new BlockItem(VariousBlocks.POLISHED_DEBRIS_TILES_STAIRS.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> SOULSTONE_STAIRS = ITEMS.register("soulstone_stairs", () -> new BlockItem(VariousBlocks.SOULSTONE_STAIRS.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> POLISHED_SOULSAND_STAIRS = ITEMS.register("polished_soulsand_stairs", () -> new BlockItem(VariousBlocks.POLISHED_SOULSAND_STAIRS.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> EMERALD_PLATED_POLISHED_SOULSAND_STAIRS = ITEMS.register("emerald_plated_polished_soulsand_stairs", () -> new BlockItem(VariousBlocks.EMERALD_PLATED_POLISHED_SOULSAND_STAIRS.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> POLISHED_SOULSAND_BRICKS_STAIRS = ITEMS.register("polished_soulsand_bricks_stairs", () -> new BlockItem(VariousBlocks.POLISHED_SOULSAND_BRICKS_STAIRS.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> EMERALD_SOULSAND_BRICKS_STAIRS = ITEMS.register("emerald_soulsand_bricks_stairs", () -> new BlockItem(VariousBlocks.EMERALD_SOULSAND_BRICKS_STAIRS.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> HONEY_PUMPKIN_BRICKS_STAIRS = ITEMS.register("honey_pumpkin_bricks_stairs", () -> new BlockItem(VariousBlocks.HONEY_PUMPKIN_BRICKS_STAIRS.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> HONEY_PUMPKIN_TILES_STAIRS = ITEMS.register("honey_pumpkin_tiles_stairs", () -> new BlockItem(VariousBlocks.HONEY_PUMPKIN_TILES_STAIRS.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> COBBLED_DARK_PRISMARINE_STAIRS = ITEMS.register("cobbled_dark_prismarine_stairs", () -> new BlockItem(VariousBlocks.COBBLED_DARK_PRISMARINE_STAIRS.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> CUT_DARK_PRISMARINE_BRICKS_STAIRS = ITEMS.register("cut_dark_prismarine_bricks_stairs", () -> new BlockItem(VariousBlocks.CUT_DARK_PRISMARINE_BRICKS_STAIRS.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> DARK_PRISMARINE_BRICKS_STAIRS = ITEMS.register("dark_prismarine_bricks_stairs", () -> new BlockItem(VariousBlocks.DARK_PRISMARINE_BRICKS_STAIRS.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> DARK_PRISMARINE_SLAT_BRICKS_STAIRS = ITEMS.register("dark_prismarine_slat_bricks_stairs", () -> new BlockItem(VariousBlocks.DARK_PRISMARINE_SLAT_BRICKS_STAIRS.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> DARK_PRISMARINE_SLATS_STAIRS = ITEMS.register("dark_prismarine_slats_stairs", () -> new BlockItem(VariousBlocks.DARK_PRISMARINE_SLATS_STAIRS.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> POLISHED_DARK_PRISMARINE_STAIRS = ITEMS.register("polished_dark_prismarine_stairs", () -> new BlockItem(VariousBlocks.POLISHED_DARK_PRISMARINE_STAIRS.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> GOLD_POLISHED_DARK_PRISMARINE_STAIRS = ITEMS.register("gold_polished_dark_prismarine_stairs", () -> new BlockItem(VariousBlocks.GOLD_POLISHED_DARK_PRISMARINE_STAIRS.get(), DEFAULT_PROPERTIES()));
+
+
+    public static final RegistryObject<Item> COBBLED_NAUTILUS_QUARTZ_WALL = ITEMS.register("cobbled_nautilus_quartz_wall", () -> new BlockItem(VariousBlocks.COBBLED_NAUTILUS_QUARTZ_WALL.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> CUT_NAUTILUS_QUARTZ_BRICKS_WALL = ITEMS.register("cut_nautilus_quartz_bricks_wall", () -> new BlockItem(VariousBlocks.CUT_NAUTILUS_QUARTZ_BRICKS_WALL.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> POLISHED_DEBRIS_WALL = ITEMS.register("polished_debris_wall", () -> new BlockItem(VariousBlocks.POLISHED_DEBRIS_WALL.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> POLISHED_DEBRIS_BRICKS_WALL = ITEMS.register("polished_debris_bricks_wall", () -> new BlockItem(VariousBlocks.POLISHED_DEBRIS_BRICKS_WALL.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> CUT_DEBRIS_BRICKS_WALL = ITEMS.register("cut_debris_bricks_wall", () -> new BlockItem(VariousBlocks.CUT_DEBRIS_BRICKS_WALL.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> POLISHED_DEBRIS_TILES_WALL = ITEMS.register("polished_debris_tiles_wall", () -> new BlockItem(VariousBlocks.POLISHED_DEBRIS_TILES_WALL.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> SOULSTONE_WALL = ITEMS.register("soulstone_wall", () -> new BlockItem(VariousBlocks.SOULSTONE_WALL.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> POLISHED_SOULSAND_WALL = ITEMS.register("polished_soulsand_wall", () -> new BlockItem(VariousBlocks.POLISHED_SOULSAND_WALL.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> EMERALD_PLATED_POLISHED_SOULSAND_WALL = ITEMS.register("emerald_plated_polished_soulsand_wall", () -> new BlockItem(VariousBlocks.EMERALD_PLATED_POLISHED_SOULSAND_WALL.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> POLISHED_SOULSAND_BRICKS_WALL = ITEMS.register("polished_soulsand_bricks_wall", () -> new BlockItem(VariousBlocks.POLISHED_SOULSAND_BRICKS_WALL.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> EMERALD_SOULSAND_BRICKS_WALL = ITEMS.register("emerald_soulsand_bricks_wall", () -> new BlockItem(VariousBlocks.EMERALD_SOULSAND_BRICKS_WALL.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> HONEY_PUMPKIN_BRICKS_WALL = ITEMS.register("honey_pumpkin_bricks_wall", () -> new BlockItem(VariousBlocks.HONEY_PUMPKIN_BRICKS_WALL.get(), DEFAULT_PROPERTIES()));
     public static final RegistryObject<Item> HONEY_PUMPKIN_TILES_WALL = ITEMS.register("honey_pumpkin_tiles_wall", () -> new BlockItem(VariousBlocks.HONEY_PUMPKIN_TILES_WALL.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> COBBLED_DARK_PRISMARINE_WALL = ITEMS.register("cobbled_dark_prismarine_wall", () -> new BlockItem(VariousBlocks.COBBLED_DARK_PRISMARINE_WALL.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> CUT_DARK_PRISMARINE_BRICKS_WALL = ITEMS.register("cut_dark_prismarine_bricks_wall", () -> new BlockItem(VariousBlocks.CUT_DARK_PRISMARINE_BRICKS_WALL.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> DARK_PRISMARINE_BRICKS_WALL = ITEMS.register("dark_prismarine_bricks_wall", () -> new BlockItem(VariousBlocks.DARK_PRISMARINE_BRICKS_WALL.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> DARK_PRISMARINE_SLAT_BRICKS_WALL = ITEMS.register("dark_prismarine_slat_bricks_wall", () -> new BlockItem(VariousBlocks.DARK_PRISMARINE_SLAT_BRICKS_WALL.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> DARK_PRISMARINE_SLATS_WALL = ITEMS.register("dark_prismarine_slats_wall", () -> new BlockItem(VariousBlocks.DARK_PRISMARINE_SLATS_WALL.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> POLISHED_DARK_PRISMARINE_WALL = ITEMS.register("polished_dark_prismarine_wall", () -> new BlockItem(VariousBlocks.POLISHED_DARK_PRISMARINE_WALL.get(), DEFAULT_PROPERTIES()));
+    public static final RegistryObject<Item> GOLD_POLISHED_DARK_PRISMARINE_WALL = ITEMS.register("gold_polished_dark_prismarine_wall", () -> new BlockItem(VariousBlocks.GOLD_POLISHED_DARK_PRISMARINE_WALL.get(), DEFAULT_PROPERTIES()));
+
+    public static final RegistryObject<Item> HONEY_PUMPKIN_TILES_FENCE = ITEMS.register("honey_pumpkin_tiles_fence", () -> new BlockItem(VariousBlocks.HONEY_PUMPKIN_TILES_FENCE.get(), DEFAULT_PROPERTIES()));
 
 
     public static final RegistryObject<Item> EXAMPLE_BLOCK = ITEMS.register("example_block", () -> new BlockItem(VariousBlocks.EXAMPLE_BLOCK.get(), DEFAULT_PROPERTIES()));
     public static final RegistryObject<Item> EXAMPLE_BLOCK_SLAB = ITEMS.register("example_block_slab", () -> new BlockItem(VariousBlocks.EXAMPLE_BLOCK_SLAB.get(), DEFAULT_PROPERTIES()));
     public static final RegistryObject<Item> EXAMPLE_BLOCK_STAIRS = ITEMS.register("example_block_stairs", () -> new BlockItem(VariousBlocks.EXAMPLE_BLOCK_STAIRS.get(), DEFAULT_PROPERTIES()));
-    public static final RegistryObject<Item> HONEY_PUMPKIN_TILES_FENCE = ITEMS.register("honey_pumpkin_tiles_fence", () -> new BlockItem(VariousBlocks.HONEY_PUMPKIN_TILES_FENCE.get(), DEFAULT_PROPERTIES()));
 
 
     public static final RegistryObject<Item> EXAMPLE_BLOCK_PRESSURE_PLATE = ITEMS.register("example_block_pressure_plate", () -> new BlockItem(VariousBlocks.EXAMPLE_BLOCK_PRESSURE_PLATE.get(), DEFAULT_PROPERTIES()));
